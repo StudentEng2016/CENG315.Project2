@@ -20,12 +20,11 @@ device functionality will include will include photo sensors, temperature
 sensors and moisture sensors which will be and will be further detailed in the
 mobile application proposal. I will be collaborating with the following
 company/department. In the winter semester I plan to form a group with the
-following students Maasha Maheson and Samaroo Maheshwerie who are also building
-similar hardware this term and working on the mobile application with me. The
-hardware will be completed in CENG 317 Hardware Production Techniques
-independently and the application will be completed in CENG 319 Software
-Project. These will be integrated together in the subsequent term in CENG 355
-Computer Systems Project as a member of a 2 or 3 student group.
+following students Alisha Singh Chauham who are also building similar hardware
+this term and working on the mobile application with me. The hardware will be
+completed in CENG 317 Hardware Production Techniques independently and the
+application will be completed in CENG 319 Software Project. These will be
+integrated in CENG 355 Computer Systems Project.
 
 **Background**
 
