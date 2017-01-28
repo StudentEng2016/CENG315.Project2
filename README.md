@@ -1,3 +1,8 @@
+---
+csl: apa.csl
+bibliography: RPiCitations.bib
+---
+
 ![](farmbotv2.png)
 
 September 13, 2016
@@ -47,8 +52,8 @@ healthy and striving without minimal wastage. The device is going to be cheaper
 than convention tools and more efficient.
 
 I have searched for prior art via Humber’s IEEE subscription selecting “My
-Subscribed Content” [1] and have found and read [2] which provides insight into
-similar efforts.
+Subscribed Content” [@5306920] and have found and read [@7059344] which provides
+insight into similar efforts.
 
 In the Computer Engineering Technology program, we have learned about the
 following topics from the respective relevant courses:
@@ -164,11 +169,9 @@ important to start tasks as soon as possible to be able to meet deadlines.
 This proposal presents a plan for providing an IoT solution for FarmBot This is
 an opportunity to integrate the knowledge and skills developed in our program to
 create a collaborative IoT capstone project demonstrating my ability to learn
-how to support projects such as the initiative described by [3]. I request
-approval of this project.
+how to support projects. I request approval of this project.
 
 **Student Name: Adanegbe Amadasun**
-
 
 **SRS Document**
 
@@ -186,9 +189,9 @@ sensors etc.
 
 **System Specification**
 
-![](H:/CENG 355/FarmBotSystem2.png)
+![](H:/CENG%20355/FarmBotSystem2.png)
 
-![](H:/CENG 355/FarmBotSystem3.png)
+![](H:/CENG%20355/FarmBotSystem3.png)
 
 The hardware component for FarmBot that I have are:
 
@@ -219,19 +222,17 @@ FarmBot will be able to perform the following task:
 These are the references I am going to use for the duration of this project,
 though if I come across other references I will add them.
 
-[1] Agricultural robotics [TC Spotlight] - IEEE Xplore Document. (2009, December
-11). Retrieved January 16, 2017, from
+[@5306920] Agricultural robotics [TC Spotlight] - IEEE Xplore Document. (2009,
+December 11). Retrieved January 16, 2017, from
 http://ieeexplore.ieee.org/document/5306920/
 
-[2] Robot Farmers: Autonomous Orchard Vehicles Help Tree Fruit Production - IEEE
-Xplore Document. (n.d.). Retrieved January 16, 2017, from
+[@7059344] Robot Farmers: Autonomous Orchard Vehicles Help Tree Fruit Production
+- IEEE Xplore Document. (n.d.). Retrieved January 16, 2017, from
 http://ieeexplore.ieee.org/document/7059344/
 
-[3] Raspberry Pi 3 Complete Starter Kit - 32 GB Edition. (n.d.). Retrieved
-January 16, 2017, from https://www.canakit.com/raspberry-pi-3-starter-kit.html
-
-[4] Upton, Liz. (2015, August 28). Raspberry Pi colocation [Online]. Available:
-http://raspberrycolocation.com/
+[@12345678] Raspberry Pi 3 Complete Starter Kit - 32 GB Edition. (n.d.).
+Retrieved January 16, 2017, from
+https://www.canakit.com/raspberry-pi-3-starter-kit.html
 
 **Database Work Breakdown**
 
@@ -276,19 +277,4 @@ picked from the previous screen.
 I plan on connecting FarmBot’s app with raspberry pi, so that users can be able
 to send data to it.
 
-
 **References**
-
-[1] Agricultural robotics [TC Spotlight] - IEEE Xplore Document. (2009, December
-11). Retrieved January 16, 2017, from
-http://ieeexplore.ieee.org/document/5306920/
-
-[2] Robot Farmers: Autonomous Orchard Vehicles Help Tree Fruit Production - IEEE
-Xplore Document. (n.d.). Retrieved January 16, 2017, from
-http://ieeexplore.ieee.org/document/7059344/
-
-[3] Raspberry Pi 3 Complete Starter Kit - 32 GB Edition. (n.d.). Retrieved
-January 16, 2017, from https://www.canakit.com/raspberry-pi-3-starter-kit.html
-
-[4] Upton, Liz. (2015, August 28). Raspberry Pi colocation [Online]. Available:
-http://raspberrycolocation.com/
