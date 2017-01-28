@@ -9,8 +9,8 @@ September 13, 2016
 
 *Proposal for the development of FarmBot*
 
-Prepared by Adanegbe Amadasun  
-*Computer Engineering Technology Student*  
+Prepared by Adanegbe Amadasun, Alisha Sighn Chahaum *Computer Engineering
+Technology Student*  
 [StudentEng2016](https://github.com/StudentEng2016/StudentEng2016.github.io).github.io
 
 **Executive Summary**
@@ -25,12 +25,11 @@ device functionality will include will include photo sensors, temperature
 sensors and moisture sensors which will be and will be further detailed in the
 mobile application proposal. I will be collaborating with the following
 company/department. In the winter semester I plan to form a group with the
-following students Maasha Maheson and Samaroo Maheshwerie who are also building
-similar hardware this term and working on the mobile application with me. The
-hardware will be completed in CENG 317 Hardware Production Techniques
-independently and the application will be completed in CENG 319 Software
-Project. These will be integrated together in the subsequent term in CENG 355
-Computer Systems Project as a member of a 2 or 3 student group.
+following students Alisha Singh Chauham who are also building similar hardware
+this term and working on the mobile application with me. The hardware will be
+completed in CENG 317 Hardware Production Techniques independently and the
+application will be completed in CENG 319 Software Project. These will be
+integrated in CENG 355 Computer Systems Project.
 
 **Background**
 
@@ -41,8 +40,8 @@ other agricultural equipment being used. It incorporates precision farming,
 which happens to be a concept based on observing, measuring and responding to
 inter and intra-field variability in crops. The device is going to be
 constructed be the FarmBot company, it is going to be made of an Arduino Mega
-2650, Raspberry Pi 2 Model B, disassembled hardware packages and other software
-sources. The FarmBot Genesis runs on custom built tracks and other supporting
+2650, Raspberry Pi 3, disassembled hardware packages and other software sources.
+The FarmBot Genesis runs on custom built tracks and other supporting
 infrastructure which needs to be self assembled. The robot itself relies on a
 GUI platform which users can access through the FarmBot’s web app. The physical
 robotic system is set in alignment with the crops that are plotted out in the
@@ -171,8 +170,6 @@ an opportunity to integrate the knowledge and skills developed in our program to
 create a collaborative IoT capstone project demonstrating my ability to learn
 how to support projects. I request approval of this project.
 
-**Student Name: Adanegbe Amadasun**
-
 **SRS Document**
 
 **Purpose**
@@ -189,9 +186,9 @@ sensors etc.
 
 **System Specification**
 
-![](H:/CENG%20355/FarmBotSystem2.png)
+![](FarmBotSystem2.jpg)
 
-![](H:/CENG%20355/FarmBotSystem3.png)
+![](FarmBotSystem3.jpg)
 
 The hardware component for FarmBot that I have are:
 
@@ -216,23 +213,6 @@ FarmBot will be able to perform the following task:
 -   Check the moisture of the soil,
 
 -   Also, check the pH content of soil.
-
-**References**
-
-These are the references I am going to use for the duration of this project,
-though if I come across other references I will add them.
-
-[@5306920] Agricultural robotics [TC Spotlight] - IEEE Xplore Document. (2009,
-December 11). Retrieved January 16, 2017, from
-http://ieeexplore.ieee.org/document/5306920/
-
-[@7059344] Robot Farmers: Autonomous Orchard Vehicles Help Tree Fruit Production
-- IEEE Xplore Document. (n.d.). Retrieved January 16, 2017, from
-http://ieeexplore.ieee.org/document/7059344/
-
-[@12345678] Raspberry Pi 3 Complete Starter Kit - 32 GB Edition. (n.d.).
-Retrieved January 16, 2017, from
-https://www.canakit.com/raspberry-pi-3-starter-kit.html
 
 **Database Work Breakdown**
 
@@ -278,3 +258,18 @@ I plan on connecting FarmBot’s app with raspberry pi, so that users can be abl
 to send data to it.
 
 **References**
+
+These are the references I am going to use for the duration of this project,
+though if I come across other references I will add them.
+
+[@5306920] Agricultural robotics [TC Spotlight] - IEEE Xplore Document. (2009,
+December 11). Retrieved January 16, 2017, from
+http://ieeexplore.ieee.org/document/5306920/
+
+[@7059344] Robot Farmers: Autonomous Orchard Vehicles Help Tree Fruit Production
+- IEEE Xplore Document. (n.d.). Retrieved January 16, 2017, from
+http://ieeexplore.ieee.org/document/7059344/
+
+[@12345678] Raspberry Pi 3 Complete Starter Kit - 32 GB Edition. (n.d.).
+Retrieved January 16, 2017, from
+https://www.canakit.com/raspberry-pi-3-starter-kit.html
