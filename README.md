@@ -9,7 +9,7 @@ September 13, 2016
 
 *Proposal for the development of FarmBot*
 
-Prepared by Adanegbe Amadasun, Alisha Sighn Chahaum *Computer Engineering
+Prepared by Adanegbe Amadasun, Alisha Singh Chauham *Computer Engineering
 Technology Student*  
 [StudentEng2016](https://github.com/StudentEng2016/StudentEng2016.github.io).github.io
 
