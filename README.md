@@ -14,9 +14,11 @@ bibliography: RPiCitations.bib
 
 **1. Structure and Mechanics**
 
-*Proposal for the development of FarmBot*
 Prepared by Adanegbe Amadasun, Alisha Singh Chauham *Computer Engineering
-Technology Student*  
+Technology Student* 
+
+*Proposal for the development of FarmBot*
+
 Februray 05, 2017
 
 **Executive Summary**
@@ -169,12 +171,7 @@ important to start tasks as soon as possible to be able to meet deadlines.
 | *Duty*                                                                                                                                                                                                                                                                                                                                | *TBD*          |                                                                                                                                |
 | **Phase 3 Total**                                                                                                                                                                                                                                                                                                                     | **TBD**        |                                                                                                                                |
 
-**Concluding remarks**
 
-This proposal presents a plan for providing an IoT solution for FarmBot This is
-an opportunity to integrate the knowledge and skills developed in our program to
-create a collaborative IoT capstone project demonstrating my ability to learn
-how to support projects. I request approval of this project.
 
 **SRS Document**
 
@@ -214,11 +211,7 @@ FarmBot will be able to perform the following task:
 
 -   Monitor the temperature around the plant,
 
--   Provide light to the plant,
-
--   Check the moisture of the soil,
-
--   Also, check the pH content of soil.
+-   Provide light to the plant.
 
 **Database Work Breakdown**
 
@@ -262,6 +255,13 @@ picked from the previous screen.
 
 I plan on connecting FarmBot’s app with raspberry pi, so that users can be able
 to send data to it.
+
+**Concluding remarks**
+
+This proposal presents a plan for providing an IoT solution for FarmBot This is
+an opportunity to integrate the knowledge and skills developed in our program to
+create a collaborative IoT capstone project demonstrating my ability to learn
+how to support projects. I request approval of this project.
 
 **References**
 
