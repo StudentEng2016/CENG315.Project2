@@ -5,17 +5,13 @@ bibliography: RPiCitations.bib
 
 ![](farmbotv2.png)
 
-
 September 13, 2016
 
 *Proposal for the development of FarmBot*
 
-
-[StudentEng2016](https://github.com/StudentEng2016/StudentEng2016.github.io).github.io
-
-1. Structure and Mechanics
 Prepared by Adanegbe Amadasun, Alisha Singh Chauham *Computer Engineering
 Technology Student*  
+[StudentEng2016](https://github.com/StudentEng2016/StudentEng2016.github.io).github.io
 
 **Executive Summary**
 
