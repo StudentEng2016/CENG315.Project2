@@ -3,7 +3,7 @@ csl: apa.csl
 bibliography: RPiCitations.bib
 ---
 
-![](farmbotv2.png)
+![](farmbotv2.png "Caption by Ada [@00000001]")
 
 
 
@@ -279,3 +279,17 @@ http://ieeexplore.ieee.org/document/7059344/
 [@12345678] Raspberry Pi 3 Complete Starter Kit - 32 GB Edition. (n.d.).
 Retrieved January 16, 2017, from
 https://www.canakit.com/raspberry-pi-3-starter-kit.html
+
+[@00000002]FARMBOT GENESIS. (n.d.). 
+Retrieved February 06, 2017, from 
+https://farmbot.io/
+
+[@00000001]Farmbot: The Robot to Grow Your Garden with Ease. (2016, December 28). 
+Retrieved February 06, 2017, from 
+http://www.directcannabisnetwork.com/farmbot-the-robot-to-grow-your-garden-with-ease/
+
+[@00000003]Krassenstein, E. (2017). FarmBot: An open source 3D farming printer that aims to create food for everyone. 
+Retrieved 6 February 2017, from 
+https://3dprint.com/12325/farmbot-3d-farming-printer/
+
+
