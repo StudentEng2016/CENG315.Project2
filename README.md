@@ -3,7 +3,8 @@ csl: apa.csl
 bibliography: RPiCitations.bib
 ---
 
-![](farmbotv2.png "Caption by Ada [@00000001]")
+![](farmbotv2.png "Caption test doesn't work")
+<center>Image source: [@00000001]</center>
 
 
 
@@ -268,28 +269,16 @@ how to support projects. I request approval of this project.
 These are the references I am going to use for the duration of this project,
 though if I come across other references I will add them.
 
-[@5306920] Agricultural robotics [TC Spotlight] - IEEE Xplore Document. (2009,
-December 11). Retrieved January 16, 2017, from
-http://ieeexplore.ieee.org/document/5306920/
+[@5306920]
 
-[@7059344] Robot Farmers: Autonomous Orchard Vehicles Help Tree Fruit Production
-- IEEE Xplore Document. (n.d.). Retrieved January 16, 2017, from
-http://ieeexplore.ieee.org/document/7059344/
+[@7059344]
 
-[@12345678] Raspberry Pi 3 Complete Starter Kit - 32 GB Edition. (n.d.).
-Retrieved January 16, 2017, from
-https://www.canakit.com/raspberry-pi-3-starter-kit.html
+[@12345678]
 
-[@00000002]FARMBOT GENESIS. (n.d.). 
-Retrieved February 06, 2017, from 
-https://farmbot.io/
+[@00000002]
 
-[@00000001]Farmbot: The Robot to Grow Your Garden with Ease. (2016, December 28). 
-Retrieved February 06, 2017, from 
-http://www.directcannabisnetwork.com/farmbot-the-robot-to-grow-your-garden-with-ease/
+[@00000001]
 
-[@00000003]Krassenstein, E. (2017). FarmBot: An open source 3D farming printer that aims to create food for everyone. 
-Retrieved 6 February 2017, from 
-https://3dprint.com/12325/farmbot-3d-farming-printer/
+[@00000003]
 
 
