@@ -190,9 +190,11 @@ sensors etc.
 
 **System Specification**
 
-![](FarmBotSystem2.jpg)
+![](FarmBotSystem2.jpg "Caption test doesn't work")
+<center>Image source: [@00000003]</center>
 
-![](FarmBotSystem3.jpg)
+![](FarmBotSystem3.jpg "Caption test doesn't work")
+<center>Image source: [@00000002]</center>
 
 The hardware component for FarmBot that I have are:
 
