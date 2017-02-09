@@ -6,12 +6,8 @@ bibliography: RPiCitations.bib
 ![](farmbotv2.png "Caption test doesn't work")
 <center>Image source: [@00000001]</center>
 
-
-
-
-
-
 [StudentEng2016](https://github.com/StudentEng2016/StudentEng2016.github.io).github.io
+Projects website: http://six0four.github.io/
 
 **1. Structure and Mechanics**
 
