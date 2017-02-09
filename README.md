@@ -51,10 +51,8 @@ Table of Contents
 1.  [Introduction](#Introduction)
 2.  [Body](#Body)
 
-
-
 Introduction
----------
+------------
 
 FarmBot is going to address some the problems the agricultural industry faces
 like lost of money, how ineffective some of their equipment are and how they
