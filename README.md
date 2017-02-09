@@ -3,8 +3,6 @@ csl: apa.csl
 bibliography: RPiCitations.bib
 ---
 
-![](farmbotv2.png "Caption test doesn't work")
-<center>Image source: [@00000001]</center>
 
 Projects website: http://StudentEng2016.github.io/
 
@@ -41,6 +39,16 @@ Table of Contents
 =================
 
 1.  [Introduction](#Introduction)
+2.  [Body](#Body)
+
+![](farmbotv2.png "Caption test doesn't work")
+<center>Image source: [@00000001]</center>
+
+![](FarmBotSystem2.jpg "Caption test doesn't work")
+<center>Image source: [@00000003]</center>
+
+![](FarmBotSystem3.jpg "Caption test doesn't work")
+<center>Image source: [@00000002]</center>
 
 
 Introduction
@@ -87,6 +95,10 @@ following topics from the respective relevant courses:
 
 This knowledge and skill set will enable me to build the subsystems and
 integrate them together as my capstone project.
+
+Body
+----
+
 
 **Methodology**
 
@@ -194,11 +206,7 @@ sensors etc.
 
 **System Specification**
 
-![](FarmBotSystem2.jpg "Caption test doesn't work")
-<center>Image source: [@00000003]</center>
 
-![](FarmBotSystem3.jpg "Caption test doesn't work")
-<center>Image source: [@00000002]</center>
 
 The hardware component for FarmBot that I have are:
 
