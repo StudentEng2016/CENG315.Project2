@@ -54,7 +54,7 @@ Table of Contents
 
 
 Introduction
-------------
+---------
 
 FarmBot is going to address some the problems the agricultural industry faces
 like lost of money, how ineffective some of their equipment are and how they
@@ -100,7 +100,6 @@ integrate them together as my capstone project.
 
 Body
 ----
-
 
 **Methodology**
 
