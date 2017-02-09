@@ -259,6 +259,8 @@ picked from the previous screen.
 I plan on connecting FarmBot’s app with raspberry pi, so that users can be able
 to send data to it.
 
+
+
 **Concluding remarks**
 
 This proposal presents a plan for providing an IoT solution for FarmBot This is
