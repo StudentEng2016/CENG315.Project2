@@ -8,7 +8,8 @@ bibliography: RPiCitations.bib
 
 Projects website: http://StudentEng2016.github.io/
 
-**1. Structure and Mechanics**
+1. Structure and Mechanics
+==========================
 
 Prepared by Adanegbe Amadasun, Alisha Singh Chauham *Computer Engineering
 Technology Student* 
@@ -17,7 +18,8 @@ Technology Student*
 
 Februray 05, 2017
 
-**Executive Summary**
+Executive Summary
+=================
 
 As a student in the Computer Engineering Technology program, I will be
 integrating the knowledge and skills I have learned from our program into this
@@ -42,7 +44,7 @@ Table of Contents
 
 
 Introduction
----------
+------------
 
 FarmBot is going to address some the problems the agricultural industry faces
 like lost of money, how ineffective some of their equipment are and how they
