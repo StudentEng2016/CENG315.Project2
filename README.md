@@ -16,6 +16,16 @@ Technology Student*
 
 Februray 05, 2017
 
+![](farmbotv2.png "Caption test doesn't work")
+<center>Image source: [@00000001]</center>
+
+![](FarmBotSystem2.jpg "Caption test doesn't work")
+<center>Image source: [@00000003]</center>
+
+![](FarmBotSystem3.jpg "Caption test doesn't work")
+<center>Image source: [@00000002]</center>
+
+
 Executive Summary
 =================
 
@@ -41,14 +51,6 @@ Table of Contents
 1.  [Introduction](#Introduction)
 2.  [Body](#Body)
 
-![](farmbotv2.png "Caption test doesn't work")
-<center>Image source: [@00000001]</center>
-
-![](FarmBotSystem2.jpg "Caption test doesn't work")
-<center>Image source: [@00000003]</center>
-
-![](FarmBotSystem3.jpg "Caption test doesn't work")
-<center>Image source: [@00000002]</center>
 
 
 Introduction
