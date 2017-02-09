@@ -35,7 +35,14 @@ completed in CENG 317 Hardware Production Techniques independently and the
 application will be completed in CENG 319 Software Project. These will be
 integrated in CENG 355 Computer Systems Project.
 
-**Background**
+Table of Contents
+=================
+
+1.  [Introduction](#Introduction)
+
+
+Introduction
+---------
 
 FarmBot is going to address some the problems the agricultural industry faces
 like lost of money, how ineffective some of their equipment are and how they
