@@ -51,6 +51,14 @@ Table of Contents
 1.  [Introduction](#Introduction)
 2.  [Body](#Body)
 
+
+List of Illustrations
+=====================
+Figure 1:  FarmBot
+Figure 2:  Detailed Farmbot diagram
+Figure 3:  Parts of a FarmBot
+
+
 Introduction
 ------------
 
