@@ -6,8 +6,11 @@ bibliography: RPiCitations.bib
 
 Projects website: http://StudentEng2016.github.io/
 
-1. Structure and Mechanics
-==========================
+FarmBot
+=======
+
+![](farmbotv2.png "Caption test doesn't work")
+<center>Image source: [@00000001]</center>
 
 Prepared by Adanegbe Amadasun, Alisha Singh Chauham *Computer Engineering
 Technology Student* 
@@ -16,14 +19,6 @@ Technology Student*
 
 Februray 05, 2017
 
-![](farmbotv2.png "Caption test doesn't work")
-<center>Image source: [@00000001]</center>
-
-![](FarmBotSystem2.jpg "Caption test doesn't work")
-<center>Image source: [@00000003]</center>
-
-![](FarmBotSystem3.jpg "Caption test doesn't work")
-<center>Image source: [@00000002]</center>
 
 
 Executive Summary
@@ -44,22 +39,8 @@ completed in CENG 317 Hardware Production Techniques independently and the
 application will be completed in CENG 319 Software Project. These will be
 integrated in CENG 355 Computer Systems Project.
 
-Table of Contents
-=================
-
-1.  [Introduction](#Introduction)
-2.  [Body](#Body)
-
-
-List of Illustrations
-=====================
--	Figure 1:  FarmBot
--	Figure 2:  Detailed Farmbot diagram
--	Figure 3:  Parts of a FarmBot
-
-
-Introduction
-------------
+Background
+==========
 
 FarmBot is going to address some the problems the agricultural industry faces
 like lost of money, how ineffective some of their equipment are and how they
@@ -77,6 +58,29 @@ virtual version on the web app. This is how FarmBot can be efficient and
 reliably distribute water, fertilizer and other elements to keep the plants
 healthy and striving without minimal wastage. The device is going to be cheaper
 than convention tools and more efficient.
+
+Concluding Remark 
+=================
+
+
+Table of Contents
+=================
+
+1.  [Introduction](#Introduction)
+2.  [Body](#Body)
+
+
+List of Illustrations
+=====================
+-	Figure 1:  FarmBot
+-	Figure 2:  Detailed Farmbot diagram
+-	Figure 3:  Parts of a FarmBot
+
+
+Introduction
+------------
+
+
 
 We have searched for prior art via Humber’s IEEE subscription selecting “My
 Subscribed Content” [@5306920] and have found and read [@7059344] which provides
@@ -119,6 +123,12 @@ waste resources.
 An open source automated farming device which operates like a 3D printer. But
 instead of extruding plastic, its tools are seed injectors, watering nozzles,
 sensors etc.
+
+![](FarmBotSystem2.jpg "Caption test doesn't work")
+<center>Image source: [@00000003]</center>
+
+![](FarmBotSystem3.jpg "Caption test doesn't work")
+<center>Image source: [@00000002]</center>
 
 **System Specification**
 
