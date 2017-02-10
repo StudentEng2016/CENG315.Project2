@@ -33,34 +33,13 @@ PCB with sensors and actuators for an automated farming device. The mobile
 device functionality will include will include photo sensors, temperature
 sensors and moisture sensors which will be and will be further detailed in the
 mobile application proposal. We will be collaborating with the following
-company/department. In the winter semester I plan to form a group with the Alisha Singh Chauhan who is also building similar hardware
+company/department. In the winter semester I plan to form a group with the
+Alisha Singh Chauhan who is also building similar hardware
 this term and working on the mobile application with me. The hardware will be
 completed in CENG 317 Hardware Production Techniques independently and the
 application will be completed in CENG 319 Software Project. These will be
 integrated in CENG 355 Computer Systems Project.
 
-Background
-==========
-
-FarmBot is going to address some the problems the agricultural industry faces
-like lost of money, how ineffective some of their equipment are and how they
-waste resources. FarmBot is going to be more economical and ecofriendly unlike
-other agricultural equipment being used. It incorporates precision farming,
-which happens to be a concept based on observing, measuring and responding to
-inter and intra-field variability in crops. The device is going to be
-constructed be the FarmBot company, it is going to be made of an Arduino Mega
-2650, Raspberry Pi 3, disassembled hardware packages and other software sources.
-The FarmBot Genesis runs on custom built tracks and other supporting
-infrastructure which needs to be self assembled. The robot itself relies on a
-GUI platform which users can access through the FarmBot’s web app. The physical
-robotic system is set in alignment with the crops that are plotted out in the
-virtual version on the web app. This is how FarmBot can be efficient and
-reliably distribute water, fertilizer and other elements to keep the plants
-healthy and striving without minimal wastage. The device is going to be cheaper
-than convention tools and more efficient.
-
-Concluding Remark 
-=================
 
 
 Table of Contents
@@ -79,6 +58,27 @@ List of Illustrations
 
 Introduction
 ------------
+An open source automated farming device which operates like a 3D printer. But
+instead of extruding plastic, its tools are seed injectors, watering nozzles,
+sensors etc.
+
+FarmBot is going to address some the problems the agricultural industry faces
+like lost of money, how ineffective some of their equipment are and how they
+waste resources. FarmBot is going to be more economical and ecofriendly unlike
+other agricultural equipment being used. It incorporates precision farming,
+which happens to be a concept based on observing, measuring and responding to
+inter and intra-field variability in crops. The device is going to be
+constructed be the FarmBot company, it is going to be made of an Arduino Mega
+2650, Raspberry Pi 3, disassembled hardware packages and other software sources.
+The FarmBot Genesis runs on custom built tracks and other supporting
+infrastructure which needs to be self assembled. The robot itself relies on a
+GUI platform which users can access through the FarmBot’s web app. The physical
+robotic system is set in alignment with the crops that are plotted out in the
+virtual version on the web app. This is how FarmBot can be efficient and
+reliably distribute water, fertilizer and other elements to keep the plants
+healthy and striving without minimal wastage. The device is going to be cheaper
+than convention tools and more efficient.
+
 
 
 
@@ -120,9 +120,7 @@ waste resources.
 
 **Definitions**
 
-An open source automated farming device which operates like a 3D printer. But
-instead of extruding plastic, its tools are seed injectors, watering nozzles,
-sensors etc.
+
 
 ![](FarmBotSystem2.jpg "Caption test doesn't work")
 <center>Image source: [@00000003]</center>
