@@ -54,9 +54,9 @@ Table of Contents
 
 List of Illustrations
 =====================
-Figure 1:  FarmBot
-Figure 2:  Detailed Farmbot diagram
-Figure 3:  Parts of a FarmBot
+-	Figure 1:  FarmBot
+-	Figure 2:  Detailed Farmbot diagram
+-	Figure 3:  Parts of a FarmBot
 
 
 Introduction
