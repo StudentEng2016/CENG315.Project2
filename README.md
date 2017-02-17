@@ -9,7 +9,7 @@ Projects website: http://StudentEng2016.github.io/
 FarmBot
 =======
 
-![](farmbotv2.png "Caption test doesn't work")
+![](farmbotv2.png "FarmBot")
 <center>Image source: [@00000001]</center>
 
 Prepared by Adanegbe Amadasun, Alisha Singh Chauham *Computer Engineering
@@ -116,10 +116,10 @@ like lost of money, how ineffective some of their equipment are and how they
 waste resources.
 
 
-![](FarmBotSystem2.jpg "Caption test doesn't work")
+![](FarmBotSystem2.jpg "FarmBot Structure")
 <center>Image source: [@00000003]</center>
 
-![](FarmBotSystem3.jpg "Caption test doesn't work")
+![](FarmBotSystem3.jpg "Parts for FarmBot")
 <center>Image source: [@00000002]</center>
 
 **System Specification**
