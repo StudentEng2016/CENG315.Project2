@@ -109,16 +109,11 @@ integrate them together as my capstone project.
 Body
 ----
 
-**SRS Document**
-
 **Purpose**
 
 FarmBot is going to address some the problems the agricultural industry faces
 like lost of money, how ineffective some of their equipment are and how they
 waste resources.
-
-**Definitions**
-
 
 
 ![](FarmBotSystem2.jpg "Caption test doesn't work")
@@ -134,12 +129,21 @@ The hardware component for FarmBot that I have are:
 -   Raspberry pi 3 – It is used to receive data from FarmBot and send it to the
     Arduino
 
--   Arduino mega 256 – It is used to control the bi-polar stepper motor
+-   Arduino mega 2560 – It is used to control the bi-polar stepper motor
 
 -   Sensor Hat (light and temperature) – It is used to receive data about light
     and temperature from surrounding.
 
 -   Bi-polar Stepper motor – It controls the movement of the FarmBot
+
+![](Raspberry_pi3.jpg "Raspberry pi 3")
+<center>Image source: [@00000004]</center>
+
+![](Arduino_mega2560.jpg "Arduino mega2560")
+<center>Image source: [@00000005]</center>
+
+![](steppermotor.jpg "Bi-polar Stepper motor")
+<center>Image source: [@00000006]</center>
 
 **System overview**
 
