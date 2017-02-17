@@ -53,6 +53,9 @@ List of Illustrations
 -	Figure 1:  FarmBot
 -	Figure 2:  Detailed Farmbot diagram
 -	Figure 3:  Parts of a FarmBot
+-	Figure 4:  Raspberry pi 3
+-	Figure 5:  Arduino mega2560
+-	Figure 6:  Bi-polar Stepper motor
 
 
 Introduction
