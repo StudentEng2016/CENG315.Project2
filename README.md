@@ -119,7 +119,7 @@ like lost of money, how ineffective some of their equipment are and how they
 waste resources.
 
 
-** 2.2 Hardware Specification **
+**2.2 Hardware Specification**
 
 ![](FarmBotSystem2.jpg "FarmBot Structure")
 <center>Image source: [@00000003]</center>
@@ -162,11 +162,11 @@ The hardware component for FarmBot that We have are:
 <center>Image source: [@00000006]</center>
 
 
-** 2.3 Software  Specification **
+**2.3 Software  Specification**
 
 
 
-** 2.3.1 Database Work Breakdown**
+**2.3.1 Database Work Breakdown**
 
 Currently, We only have a local database for our FarmBot project. The database
 stores the plant number, date, and name locally. Once the app is deleted the
@@ -175,7 +175,7 @@ users will lose access to all their data.
 We plan on getting a server to so all users data can be stored in the cloud and
 can be accessed by them at any time
 
-** 2.3.2 Application and work breakdown**
+**2.3.2 Application and work breakdown**
 
 FarmBot is going to be more economical and ecofriendly unlike other agricultural
 equipment being used. It incorporates precision farming, which happens to be a
