@@ -119,36 +119,19 @@ like lost of money, how ineffective some of their equipment are and how they
 waste resources.
 
 
+** 2.2 Hardware Specification **
+
 ![](FarmBotSystem2.jpg "FarmBot Structure")
 <center>Image source: [@00000003]</center>
 
 ![](FarmBotSystem3.jpg "Parts for FarmBot")
 <center>Image source: [@00000002]</center>
+(Describe farmbot parts)
 
-**System Specification**
 
-The hardware component for FarmBot that I have are:
 
--   Raspberry pi 3 – It is used to receive data from FarmBot and send it to the
-    Arduino
 
--   Arduino mega 2560 – It is used to control the bi-polar stepper motor
 
--   Sensor Hat (light and temperature) – It is used to receive data about light
-    and temperature from surrounding.
-
--   Bi-polar Stepper motor – It controls the movement of the FarmBot
-
-![](Raspberry_pi3.jpg "Raspberry pi 3")
-<center>Image source: [@00000004]</center>
-
-![](Arduino_mega2560.jpg "Arduino mega2560")
-<center>Image source: [@00000005]</center>
-
-![](steppermotor.jpg "Bi-polar Stepper motor")
-<center>Image source: [@00000006]</center>
-
-**System overview**
 
 FarmBot will be able to perform the following task:
 
@@ -156,7 +139,34 @@ FarmBot will be able to perform the following task:
 
 -   Provide light to the plant.
 
-**Database Work Breakdown**
+The hardware component for FarmBot that We have are:
+
+-   Raspberry pi 3 – It is used to receive data from FarmBot and send it to the
+    Arduino
+
+![](Raspberry_pi3.jpg "Raspberry pi 3")
+<center>Image source: [@00000004]</center>
+	
+-   Arduino mega 2560 – It is used to control the bi-polar stepper motor
+
+![](Arduino_mega2560.jpg "Arduino mega2560")
+<center>Image source: [@00000005]</center>
+
+
+-   Sensor Hat (light and temperature) – It is used to receive data about light
+    and temperature from surrounding.
+
+-   Bi-polar Stepper motor – It controls the movement of the FarmBot
+
+![](steppermotor.jpg "Bi-polar Stepper motor")
+<center>Image source: [@00000006]</center>
+
+
+** 2.3 Software  Specification **
+
+
+
+** 2.3.1 Database Work Breakdown**
 
 Currently, We only have a local database for our FarmBot project. The database
 stores the plant number, date, and name locally. Once the app is deleted the
@@ -165,7 +175,7 @@ users will lose access to all their data.
 We plan on getting a server to so all users data can be stored in the cloud and
 can be accessed by them at any time
 
-**Application and work breakdown**
+** 2.3.2 Application and work breakdown**
 
 FarmBot is going to be more economical and ecofriendly unlike other agricultural
 equipment being used. It incorporates precision farming, which happens to be a
@@ -178,7 +188,7 @@ stepper motor.
 We plan on first tightening a pulley to my bi-polar, then create a pulley system
 with the motor and a case.
 
-**Web and work breakdown**
+**2.3.3 Web and work breakdown**
 
 An app was created to use for the FarmBot, this app would be used to control the
 FarmBot to plant seed at desire position in the bed. Also, the user can choose
