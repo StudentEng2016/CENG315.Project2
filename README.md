@@ -128,12 +128,16 @@ waste resources.
 <center>Image source: [@00000002]</center>
 (Describe farmbot parts)
 
+![](Raspberry_pi3.jpg "Raspberry pi 3")
+<center>Image source: [@00000004]</center>
 
-
-
+![](Arduino_mega2560.jpg "Arduino mega2560")
+<center>Image source: [@00000005]</center>
 
 
 FarmBot will be able to perform the following task:
+![](steppermotor.jpg "Bi-polar Stepper motor")
+<center>Image source: [@00000006]</center>
 
 -   Monitor the temperature around the plant,
 
@@ -144,13 +148,11 @@ The hardware component for FarmBot that We have are:
 -   Raspberry pi 3 – It is used to receive data from FarmBot and send it to the
     Arduino
 
-![](Raspberry_pi3.jpg "Raspberry pi 3")
-<center>Image source: [@00000004]</center>
+
 	
 -   Arduino mega 2560 – It is used to control the bi-polar stepper motor
 
-![](Arduino_mega2560.jpg "Arduino mega2560")
-<center>Image source: [@00000005]</center>
+
 
 
 -   Sensor Hat (light and temperature) – It is used to receive data about light
@@ -158,8 +160,6 @@ The hardware component for FarmBot that We have are:
 
 -   Bi-polar Stepper motor – It controls the movement of the FarmBot
 
-![](steppermotor.jpg "Bi-polar Stepper motor")
-<center>Image source: [@00000006]</center>
 
 
 **2.3 Software  Specification**
