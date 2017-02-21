@@ -58,7 +58,7 @@ List of Illustrations
 -	Figure 6:  Bi-polar Stepper motor
 
 
-Introduction
+1. Introduction
 ------------
 An open source automated farming device which operates like a 3D printer. But
 instead of extruding plastic, its tools are seed injectors, watering nozzles,
@@ -109,10 +109,10 @@ following topics from the respective relevant courses:
 This knowledge and skill set will enable me to build the subsystems and
 integrate them together as my capstone project.
 
-Body
+2. Body
 ----
 
-**Purpose**
+**2.1 Purpose**
 
 FarmBot is going to address some the problems the agricultural industry faces
 like lost of money, how ineffective some of their equipment are and how they
