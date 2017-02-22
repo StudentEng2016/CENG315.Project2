@@ -12,16 +12,11 @@ FarmBot
 ![](farmbotv2.png "FarmBot")
 <center>Image source: [@00000001]</center>
 
-*FARMBOT
+**From: Alisha Singh Chauhan, Adanegbe Amadasun**
 
-From: Alisha Singh Chauhan, Adanegbe Amadasun
+**Discipline: Computer Engineering Technology**
 
-Discipline: Computer Engineering Technology
-
-Date Submitted: March 03,2017 *
-
-
-
+**Date Submitted: March 03,2017**
 
 
 Executive Summary
