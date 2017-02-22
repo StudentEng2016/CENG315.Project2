@@ -12,12 +12,16 @@ FarmBot
 ![](farmbotv2.png "FarmBot")
 <center>Image source: [@00000001]</center>
 
-Prepared by Adanegbe Amadasun, Alisha Singh Chauham *Computer Engineering
-Technology Student* 
+*FARMBOT
 
-*Proposal for the development of FarmBot*
+From: Alisha Singh Chauhan, Adanegbe Amadasun
 
-Februray 05, 2017
+Discipline: Computer Engineering Technology
+
+Date Submitted: March 03,2017 *
+
+
+
 
 
 Executive Summary
@@ -134,10 +138,13 @@ waste resources.
 ![](Arduino_mega2560.jpg "Arduino mega2560")
 <center>Image source: [@00000005]</center>
 
-
-FarmBot will be able to perform the following task:
 ![](steppermotor.jpg "Bi-polar Stepper motor")
 <center>Image source: [@00000006]</center>
+
+
+FarmBot will be able to perform the following task:
+
+
 
 -   Monitor the temperature around the plant,
 
