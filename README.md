@@ -19,6 +19,17 @@ FarmBot
 **Date Submitted: March 03,2017**
 
 
+Declaration of Joint Authorship 
+===============================
+
+We, Alisha Singh Chauhan and Adanegbe Amadasun students of Applied Technology department
+hereby declare that the following technical report submitted for CENG 355 
+Computer Systems Project is expressed in our own words.  
+The work which has been used from various sources like: words, numerical data, figures, tables etc. 
+has been either paraphrased or cited separately. The original sources of cited work may be located
+using IEEE style in References page at the back.
+
+
 Executive Summary
 =================
 
@@ -44,6 +55,9 @@ Table of Contents
 
 1.  [Introduction](#Introduction)
 2.  [Body](#Body)
+	2.1[Purpose](#Purpose)
+	2.2[Hardware Specification](#Hardware Specification)
+	2.3[Software  Specification](#Software  Specification)
 
 
 List of Illustrations
