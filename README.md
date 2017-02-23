@@ -55,8 +55,11 @@ Table of Contents
 
 1.  [Introduction](#Introduction)
 2.  [Body](#Body)
+
 	2.1[Purpose](#Purpose)
+	
 	2.2[Hardware Specification](#Hardware Specification)
+	
 	2.3[Software  Specification](#Software  Specification)
 
 
