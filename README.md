@@ -198,6 +198,8 @@ users will lose access to all their data.
 We plan on getting a server to so all users data can be stored in the cloud and
 can be accessed by them at any time
 
+Adanegbe will be working on the database part of the project.
+
 **2.3.2 Application work breakdown**
 
 FarmBot is going to be more economical and ecofriendly unlike other agricultural
@@ -210,6 +212,8 @@ stepper motor.
 
 We plan on using the an arduino mege2560 to control the bi-polar stepper motor 
 to make it move on its X-axis 
+
+This part would be covered by Alisha 
 
 **2.3.3 Web and work breakdown**
 
@@ -231,6 +235,8 @@ picked from the previous screen.
 
 We plan on connecting FarmBot’s app with raspberry pi, so that users can be able
 to send data to it.
+
+We would both work on this. 
 
 
 **2.4	Methodology**
