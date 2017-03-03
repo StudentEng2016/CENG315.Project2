@@ -54,19 +54,20 @@ Table of Contents
 =================
 
 1.  [Introduction](#Introduction)
+
 2.  [Body](#Body)
 
-	2.1[Purpose](#Purpose)
+	2.1	[Purpose](#Purpose)
 	
-	2.2[Hardware Specification](#Hardware Specification)
+	2.2	[Hardware Specification](#Hardware Specification)
 	
-	2.3[Software  Specification](#Software  Specification)
+	2.3	[Software  Specification](#Software  Specification)
 	
-		2.3.1[Database Work Breakdown](#Database Work Breakdown)
+		2.3.1	[Database work breakdown](#Database work breakdown)
 		
-		2.3.2[Application Work Breakdown](#Application Work Breakdown)
+		2.3.2	[Application work breakdown](#Application work breakdownwn)
 		
-		2.3.2[Web Work Breakdown](#Web Work Breakdown)
+		2.3.2	[Web and work breakdown](#Web and work breakdown)
 		
 3.	[Concluding Remarks](#Concluding Remarks)
 
@@ -186,7 +187,7 @@ The hardware component for FarmBot that We have are:
 
 **2.3 Software  Specification**
 
-**2.3.1 Database Work Breakdown**
+**2.3.1 Database work breakdown**
 
 Currently, We only have a local database for our FarmBot project. The database
 stores the plant number, date, and name locally. Once the app is deleted the
@@ -195,7 +196,7 @@ users will lose access to all their data.
 We plan on getting a server to so all users data can be stored in the cloud and
 can be accessed by them at any time
 
-**2.3.2 Application Work Breakdown**
+**2.3.2 Application work breakdown**
 
 FarmBot is going to be more economical and ecofriendly unlike other agricultural
 equipment being used. It incorporates precision farming, which happens to be a
