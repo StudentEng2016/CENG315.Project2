@@ -61,7 +61,16 @@ Table of Contents
 	2.2[Hardware Specification](#Hardware Specification)
 	
 	2.3[Software  Specification](#Software  Specification)
+	
+		2.3.1[Database Work Breakdown](#Database Work Breakdown)
+		
+		2.3.2[Application Work Breakdown](#Application Work Breakdown)
+		
+		2.3.2[Web Work Breakdown](#Web Work Breakdown)
+		
+3.	[Concluding Remarks](#Concluding Remarks)
 
+4.	[References](#References)
 
 List of Illustrations
 =====================
@@ -186,7 +195,7 @@ users will lose access to all their data.
 We plan on getting a server to so all users data can be stored in the cloud and
 can be accessed by them at any time
 
-**2.3.2 Application and work breakdown**
+**2.3.2 Application Work Breakdown**
 
 FarmBot is going to be more economical and ecofriendly unlike other agricultural
 equipment being used. It incorporates precision farming, which happens to be a
@@ -221,7 +230,7 @@ We plan on connecting FarmBot’s app with raspberry pi, so that users can be ab
 to send data to it.
 
 
-**Concluding remarks**
+**Concluding Remarks**
 
 This proposal presents a plan for providing an IoT solution for FarmBot This is
 an opportunity to integrate the knowledge and skills developed in our program to
