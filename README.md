@@ -37,7 +37,7 @@ Computer Engineering Technology Students
 
 
 Executive Summary
-=================
+-----------------
 
 As a student in the Computer Engineering Technology program, we will be
 integrating the knowledge and skills we have learned from our program into this
@@ -57,7 +57,7 @@ integrated in CENG 355 Computer Systems Project.
 
 
 Background
-==========
+----------
 
 FarmBot is going to address some the problems the agricultural industry faces
 like lost of money, how ineffective some of their equipment are and how they
@@ -102,7 +102,8 @@ This knowledge and skill set will enable me to build the subsystems and
 integrate them together as my capstone project.
 
 
-** Methodology**
+Methodology
+-----------
 
 This proposal is assigned in the first week of class and is due at the beginning
 of class in the second week of the fall semester. My coursework will focus on
@@ -191,7 +192,8 @@ important to start tasks as soon as possible to be able to meet deadlines.
 | **Phase 3 Total**                                                                                                                                                                                                                                                                                                                     | **TBD**        |                                                                                                                                |
 
 
-**Concluding Remarks**
+Concluding Remarks
+------------------
 
 This proposal presents a plan for providing an IoT solution for FarmBot This is
 an opportunity to integrate the knowledge and skills developed in our program to
@@ -242,7 +244,7 @@ List of Illustrations
 
 
 1. Introduction
-------------
+===============
 An open source automated farming device which operates like a 3D printer. But
 instead of extruding plastic, its tools are seed injectors, watering nozzles,
 sensors etc.
@@ -255,9 +257,10 @@ sensors etc.
 
 
 2. Project Description
-----
+=======================
 
-**2.1 Purpose**
+2.1 Purpose
+-----------
 
 FarmBot is going to address some the problems the agricultural industry faces
 like lost of money, how ineffective some of their equipment are and how they
