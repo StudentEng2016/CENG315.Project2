@@ -226,7 +226,6 @@ Table of Contents
 		
 		2.3.2	[Web and work breakdown](#Web and work breakdown)
 		
-	2.4 [Methodology](#Methodology)
 		
 3.	[Concluding Remarks](#Concluding Remarks)
 
@@ -259,8 +258,7 @@ sensors etc.
 2. Project Description
 =======================
 
-2.1 Purpose
------------
+**2.1 Purpose**
 
 FarmBot is going to address some the problems the agricultural industry faces
 like lost of money, how ineffective some of their equipment are and how they
@@ -316,9 +314,9 @@ stores the plant number, date, and name locally. Once the app is deleted the
 users will lose access to all their data.
 
 We plan on getting a server to so all users data can be stored in the cloud and
-can be accessed by them at any time
+can be accessed by them at any time.
 
-Adanegbe will be working on the database part of the project.
+(Developed by Adanegbe Amadasun)
 
 **2.3.2 Application work breakdown**
 
@@ -331,9 +329,9 @@ hat (which can read temperature, light, and soil condition), and Bi-polar
 stepper motor.
 
 We plan on using the an arduino mege2560 to control the bi-polar stepper motor 
-to make it move on its X-axis 
+to make it move on its X-axis.
 
-This part would be covered by Alisha 
+(Developed by Alisha Singh Chauhan) 
 
 **2.3.3 Web and work breakdown**
 
@@ -358,12 +356,19 @@ to send data to it.
 
 We would both work on this. 
 
+(Developed by Adanegbe Amadasun, Alisha Singh Chauhan) 
 
 
 3. Progress Report
+==================
 
 
-**References**
+
+
+
+
+References
+==========
 
 These are the references We am going to use for the duration of this project,
 though if we come across other references we will add them.
