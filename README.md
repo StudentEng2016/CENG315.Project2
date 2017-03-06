@@ -243,8 +243,6 @@ Table of Contents
 		
 		2.5.7 [Production Testing](#Production Testing)	
 
-	
-	
 3.	[Progress Report](#Progress Report)
 
 	3.1	[Report 1](#Report 1)
@@ -383,34 +381,84 @@ We would both work on this.
 (Developed by Adanegbe Amadasun and Alisha Singh Chauhan) 
 
 
+**2.5 Build Instruction**
+
+**2.5.1 Bill of Materials**
+
+-	Raspberry Pi 3 Complete Starter Kit - 32 GB Edition - $74.35
+
+-	Arduino Mega - $49.95
+
+-	5v Switching Power Supply - $15
+
+-	Ramps 1.4 for 3D Printer – $35.95
+
+-	Stepper Motor Driver - $14.25
+
+-	Bipolar Stepper Motor - $29.50
+
+-	Time Pulley - $9.00
+
+-	Rotary - $4.95
+
+-	Timing Belt - $19
+
+-	Total = $284.70 + HST
+		
+**2.5.2 Time Commitment**
+		
+**2.5.3 Mechanical Assembly**
+		
+**2.5.4 PCB and Soldering**
+		
+**2.5.5 Power Up**
+		
+**2.5.6 Unit Testing**
+		
+**2.5.7 Production Testing**
+
+
+
 3. Progress Report
 ==================
 
-Week 5
+** 3.1 Report 1 (Week 5)**
+
 From: Adanegbe Amadasun
 Cc: Alisha Singh Chauhan
 Dear Sir,
 This is our email regarding progress report and the milestone we have covered so far on our project.
-We are still behind schedule because I did not make a case from last semester for our project. Last semester, I could not keep up with the schedule I created for myself because of my course load and some of the parts I was working with were new to me. But this semester, I have a better understanding of my project and how to do it. We are trying to come up with ideals on how on the stepper motor move different parts of the FarmBot. After we are done with that, we would start working on the code need to move the stepper motor.
+We are still behind schedule because I did not make a case from last semester for our project. 
+Last semester, I could not keep up with the schedule I created for myself because of my course load and 
+some of the parts I was working with were new to me. But this semester, 
+I have a better understanding of my project and how to do it. 
+We are trying to come up with ideals on how on the stepper motor move different parts of the FarmBot. 
+After we are done with that, we would start working on the code need to move the stepper motor.
 We have an android app working which we would use to connect to our FarmBot.
-We have built a case for our FarmBot and we are currently trying to create a pulley system.  Last week Friday, we had success in uploading teacup firmware into our Arduino for the pulley system. 
-Our budget has changed because I have planning on purchasing new parts. We are first going check the parts from Alisha project to know which of the we can use. 
+We have built a case for our FarmBot and we are currently trying to create a pulley system.  
+Last week Friday, we had success in uploading teacup firmware into our Arduino for the pulley system. 
+Our budget has changed because I have planning on purchasing new parts.
+We are first going check the parts from Alisha project to know which of the we can use. 
 
 Sincerely,
 Adanegbe Amadasun
 
 
+** 3.2 Report 2 (Week 6) **
 
-Week 6
 From: Adanegbe Amadasun
 Cc: Alisha Singh Chauhan
 Dear Sir,
+
 This is our email regarding progress report and the milestone we have covered so far on our project.
-We now have a better understanding on how to go about our project. We worked with Vlad last week Friday to accomplish various task for our project such as:
+We now have a better understanding on how to go about our project. 
+We worked with Vlad last week Friday to accomplish various task for our project such as:
 •	Tuning our stepper driver to allow 0.6 ohms of current
 •	Drilling a hole through our case for the pulling system 
 •	We also learnt how to cripple wires, we crippled our stepper motor wire to make it easier to connect it to ramp shield.
-We have built a case for our FarmBot and are still working on creating our pulley system. Also, we had success in uploading teacup firmware into our Arduino for the pulley system, and we are currently trying to figure out the distance to use for stepper more to move. 
+We have built a case for our FarmBot and are still working on creating our pulley system.
+Also, we had success in uploading teacup firmware into our Arduino for the pulley system,
+and we are currently trying to figure out the distance to use for stepper more to move. 
 
 Work breakdown: we have distributed the workload among us in the following way.
 Database Work Breakdown: Adanegbe will be working on the database part of the project.
@@ -434,10 +482,6 @@ stepper motor.
 Hardware breakdown: we are working on the hardware both together.
 Sincerely,
 Adanegbe Amadasun
-
-
-
-
 
 
 References
