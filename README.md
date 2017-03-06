@@ -203,6 +203,14 @@ how to support projects. We request the approval of this project.
 Abstract 
 ========
 
+The Farmbot is basically CNC farming technique which has proved to be the great way for the production of small scale food. 
+It has turned out to be a reliable and approachable source to accomplish 
+the idea of integrating an artificial approach to take care of the cultivation.
+This project deals with the following hardware components, 
+such as PCF8591 sensors, nozzels which an inject the substances 
+controlled by axes with the software governed by Arduino/RAMPs stack and internet of Raspberry Pi.
+This project is designed to be completed under the time span of 3-4 months to put together everything. 
+It gives user the opportunity to customize their own farm using the web app.
 
 
 
@@ -264,15 +272,13 @@ List of Illustrations
 -	Figure 4:  Raspberry pi 3
 -	Figure 5:  Arduino mega2560
 -	Figure 6:  Bi-polar Stepper motor
-
+-	Figure 7:  Software Overview
 
 1. Introduction
 ===============
 An open source automated farming device which operates like a 3D printer. But
 instead of extruding plastic, its tools are seed injectors, watering nozzles,
 sensors etc.
-
-
 
 
 
@@ -383,8 +389,14 @@ We would both work on this.
 
 **2.5 Build Instruction**
 
-**2.5.1 Bill of Materials**
+**2.5.1 Introduction**
 
+ The Farmbot is designed in a such a way that it will work and 
+ execute the commands given by the user through software. 
+ The working is clearly explained with the design model given below.
+
+**2.5.2 Bill of Materials**
+ 
 -	Raspberry Pi 3 Complete Starter Kit - 32 GB Edition - $74.35
 
 -	Arduino Mega - $49.95
@@ -405,18 +417,19 @@ We would both work on this.
 
 -	Total = $284.70 + HST
 		
-**2.5.2 Time Commitment**
+**2.5.3 Time Commitment**
 		
-**2.5.3 Mechanical Assembly**
+**2.5.4 Mechanical Assembly**
+	![](Software_Overview.png "Software Overview")
+	<center>Image source: [@00000007]</center>
+
+**2.5.5 PCB and Soldering**
 		
-**2.5.4 PCB and Soldering**
+**2.5.6 Power Up**
 		
-**2.5.5 Power Up**
-		
-**2.5.6 Unit Testing**
+**2.5.7 Unit Testing**
 		
 **2.5.7 Production Testing**
-
 
 
 3. Progress Report
@@ -426,7 +439,9 @@ We would both work on this.
 
 From: Adanegbe Amadasun
 Cc: Alisha Singh Chauhan
+
 Dear Sir,
+
 This is our email regarding progress report and the milestone we have covered so far on our project.
 We are still behind schedule because I did not make a case from last semester for our project. 
 Last semester, I could not keep up with the schedule I created for myself because of my course load and 
@@ -438,7 +453,7 @@ We have an android app working which we would use to connect to our FarmBot.
 We have built a case for our FarmBot and we are currently trying to create a pulley system.  
 Last week Friday, we had success in uploading teacup firmware into our Arduino for the pulley system. 
 Our budget has changed because I have planning on purchasing new parts.
-We are first going check the parts from Alisha project to know which of the we can use. 
+I am first going to check the Alisha's parts to m Alisha project to know which of the we can use. 
 
 Sincerely,
 Adanegbe Amadasun
@@ -453,9 +468,9 @@ Dear Sir,
 This is our email regarding progress report and the milestone we have covered so far on our project.
 We now have a better understanding on how to go about our project. 
 We worked with Vlad last week Friday to accomplish various task for our project such as:
-•	Tuning our stepper driver to allow 0.6 ohms of current
-•	Drilling a hole through our case for the pulling system 
-•	We also learnt how to cripple wires, we crippled our stepper motor wire to make it easier to connect it to ramp shield.
+•	Tuning our stepper driver to allow 0.6 amps of current
+•	Lasercut  a hole through our case for the pulling system 
+•	We also learnt how to crimp wires, we crimp our stepper motor wire to make it easier to connect it to ramp shield.
 We have built a case for our FarmBot and are still working on creating our pulley system.
 Also, we had success in uploading teacup firmware into our Arduino for the pulley system,
 and we are currently trying to figure out the distance to use for stepper more to move. 
@@ -465,6 +480,7 @@ Database Work Breakdown: Adanegbe will be working on the database part of the pr
 Currently, we only have a local database for our FarmBot project. The database
 stores the plant number, date, and name locally. Once the app is deleted the
 users will lose access to all their data.
+(Developed by Adanegbe Amadasun)
 
 We plan on getting a server to so all users data can be stored in the cloud and
 can be accessed by them at any time
@@ -478,8 +494,8 @@ company, it is going to be made of an Arduino Mega 2650, Raspberry Pi 3, Sensor
 hat (which can read temperature, light, and soil condition), and Bi-polar
 stepper motor.
 
+Hardware breakdown: We are working on the hardware together.
 
-Hardware breakdown: we are working on the hardware both together.
 Sincerely,
 Adanegbe Amadasun
 
