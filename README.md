@@ -245,9 +245,17 @@ Table of Contents
 
 	
 	
-3.	[Concluding Remarks](#Concluding Remarks)
+3.	[Progress Report](#Progress Report)
 
-4.	[References](#References)
+	3.1	[Report 1](#Report 1)
+	
+	3.2	[Report 2](#Report 2)
+
+4.	[Conclusion](#Conclusion)
+
+5.	[Recommendations](#Recommendations)
+
+6.	[References](#References)
 
 List of Illustrations
 =====================
@@ -265,8 +273,6 @@ List of Illustrations
 An open source automated farming device which operates like a 3D printer. But
 instead of extruding plastic, its tools are seed injectors, watering nozzles,
 sensors etc.
-
-
 
 
 
