@@ -22,10 +22,10 @@ FarmBot
 Declaration of Joint Authorship 
 ===============================
 
-We, Alisha Singh Chauhan and Adanegbe Amadasun students of Applied Technology department
+We, Alisha Singh Chauhan and Adanegbe Amadasun, students of the Applied Technology department
 hereby declare that the following technical report submitted for CENG 355 
 Computer Systems Project is expressed in our own words.  
-The work which has been used from various sources like: words, numerical data, figures, tables etc. 
+The research which has been used from various sources, such as words, numerical data, figures, tables etc. 
 has been either paraphrased or cited separately. The original sources of cited work may be located
 using IEEE style in References page at the back.
 
@@ -39,42 +39,41 @@ Computer Engineering Technology Students
 Executive Summary
 -----------------
 
-As a student in the Computer Engineering Technology program, we will be
+As students in the Computer Engineering Technology program, we will be
 integrating the knowledge and skills we have learned from our program into this
 Internet of Things themed capstone project. This proposal requests the approval
 to build the hardware portion that will connect to a database as well as to a
-mobile device application. The internet connected hardware will include a custom
+mobile device application. The Internet connected hardware will include a custom
 PCB with sensors and actuators for an automated farming device. The mobile
-device functionality will include will include photo sensors, temperature
-sensors and moisture sensors which will be and will be further detailed in the
+device functionality will include photo sensors, temperature
+sensors and moisture sensors, which will be further detailed in the
 mobile application proposal. We will be collaborating with the following
-company/department. In the winter semester I plan to form a group with the
-Alisha Singh Chauhan who is also building similar hardware
-this term and working on the mobile application with me. The hardware will be
+company/department. In the winter semester, we planned to form a group together as we both are 
+building similar hardware this term and working on its mobile application. The hardware was
 completed in CENG 317 Hardware Production Techniques independently and the
-application will be completed in CENG 319 Software Project. These will be
+application was completed in CENG 319 Software Project. These will be
 integrated in CENG 355 Computer Systems Project.
 
 
 Background
 ----------
 
-FarmBot is going to address some the problems the agricultural industry faces
-like lost of money, how ineffective some of their equipment are and how they
-waste resources. FarmBot is going to be more economical and ecofriendly unlike
+FarmBot is going to address some the problems the agricultural industry faces,
+such as loss of money, inefficiency of some equipment and exploitation of resources. 
+FarmBot is going to be more economical and ecofriendly unlike
 other agricultural equipment being used. It incorporates precision farming,
 which happens to be a concept based on observing, measuring and responding to
-inter and intra-field variability in crops. The device is going to be
-constructed be the FarmBot company, it is going to be made of an Arduino Mega
-2650, Raspberry Pi 3, disassembled hardware packages and other software sources.
+inter- and intra-field variability in crops. The device is going to be
+constructed in the FarmBot company. It is going to be made of an Arduino Mega
+2506, Raspberry Pi 3, disassembled hardware packages and other software sources.
 The FarmBot Genesis runs on custom built tracks and other supporting
 infrastructure which needs to be self assembled. The robot itself relies on a
 GUI platform which users can access through the FarmBot’s web app. The physical
 robotic system is set in alignment with the crops that are plotted out in the
 virtual version on the web app. This is how FarmBot can be efficient and
 reliably distribute water, fertilizer and other elements to keep the plants
-healthy and striving without minimal wastage. The device is going to be cheaper
-than convention tools and more efficient.
+healthy and striving with minimun wastage. The device is going to be cheaper
+than conventional tools and cost-effective.
 
 We have searched for prior art via Humber’s IEEE subscription selecting “My
 Subscribed Content” [@5306920] and have found and read [@7059344] which provides
@@ -356,7 +355,7 @@ to send data to it.
 
 We would both work on this. 
 
-(Developed by Adanegbe Amadasun, Alisha Singh Chauhan) 
+(Developed by Adanegbe Amadasun and Alisha Singh Chauhan) 
 
 
 3. Progress Report
