@@ -418,6 +418,29 @@ We would both work on this.
 -	Total = $284.70 + HST
 		
 **2.5.3 Time Commitment**
+
+The design model needs at least 5-6 hours to put everything all together.
+It includes the laser cutting of the outer cage and then soldiering all 
+the components into the case appropriately.  
+
+Thing To Be Done	Time Taken To Complete (Approx.)
+Looking for and Purchasing Parts + Delivery	1.5 hours + 2 weeks
+Assembling case and setting up Raspberry Pi	1 hour
+Editing your custom PCB	30 minutes
+Soldering/Testing/Troubleshooting your PCB	3 hours
+Creating a case for your project	1 hour
+Testing/calibrating the sensors	2 hours
+Setting up the project	5 minutes
+
+| **Task**       							  | **Estimated Time**
+|---------------------------------------------|---------------------|
+| Printing PCBs							   	  |	Yes              	| 
+| Soldering PCBs   						   	  |	Yes              	| 
+| Testing Sensors and motor      		   	  |	Yes              	| 
+| Laser-cutting Box     				   	  |	Yes              	| 
+| Assemblying parts 					  	  |                     |
+|Uploading FarmBot firmware (Raspberry pi 3)  |						|
+|Uploading FarmBot firmware (Arduino)		  |						|
 		
 **2.5.4 Mechanical Assembly**
 
