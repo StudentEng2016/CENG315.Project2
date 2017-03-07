@@ -420,13 +420,39 @@ We would both work on this.
 **2.5.3 Time Commitment**
 		
 **2.5.4 Mechanical Assembly**
+
+•	The outer case was made by laser cutter and have a transparent shielding 
+	to have a clear view of the components placed inside.
+	
+•	The Arduino is placed underneath the Ramp Shield with approximately the gap of half an inch. 
+
+•	Adjacent to that the stepper motor is being placed with its one end outwards to have a connection with the belt
+
+•	Setup the Raspberry Pi with the farmbot firmware on it 
+	so that it generates a gateway for the connection in between web application and the mobile device.
+	
+•	Get the firmware for the Arduino as well.
+
+•	Assemble the firmware for the Ramp shield.
+
+•	Add the stepper motor and generate the connection of Arduino and pi.
+
+•	Enable the stepper motor and ramp shield by giving an adequate power supply.
+
+	
 	![](Software_Overview.png "Software Overview")
 	<center>Image source: [@00000007]</center>
 
 **2.5.5 PCB and Soldering**
 		
 **2.5.6 Power Up**
-		
+
+The project can be tested by giving the commands from the mobile application 
+and the belt moves according to the distance mentioned by the user.
+The Raspberry Pi becomes a hotspot and enables the Wi-Fi 
+connection for the mobile device so that it can connect
+to the web app and interfaces with the hardware.
+
 **2.5.7 Unit Testing**
 		
 **2.5.7 Production Testing**
@@ -435,7 +461,7 @@ We would both work on this.
 3. Progress Report
 ==================
 
-** 3.1 Report 1 (Week 5)**
+**3.1 Report 1 (Week 5)**
 
 From: Adanegbe Amadasun
 Cc: Alisha Singh Chauhan
@@ -459,7 +485,7 @@ Sincerely,
 Adanegbe Amadasun
 
 
-** 3.2 Report 2 (Week 6) **
+**3.2 Report 2 (Week 6) **
 
 From: Adanegbe Amadasun
 Cc: Alisha Singh Chauhan
