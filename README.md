@@ -421,6 +421,9 @@ We would both work on this.
 		
 **2.5.4 Mechanical Assembly**
 
+	![](Software_Overview.png "Software Overview")
+	<center>Image source: [@00000007]</center>
+
 •	The outer case was made by laser cutter and have a transparent shielding 
 	to have a clear view of the components placed inside.
 	
@@ -440,8 +443,7 @@ We would both work on this.
 •	Enable the stepper motor and ramp shield by giving an adequate power supply.
 
 	
-	![](Software_Overview.png "Software Overview")
-	<center>Image source: [@00000007]</center>
+
 
 **2.5.5 PCB and Soldering**
 		
