@@ -434,13 +434,14 @@ Setting up the project	5 minutes
 
 | **Task**       							  | **Estimated Time**
 |---------------------------------------------|---------------------|
-| Printing PCBs							   	  |	Yes              	| 
-| Soldering PCBs   						   	  |	Yes              	| 
-| Testing Sensors and motor      		   	  |	Yes              	| 
-| Laser-cutting Box     				   	  |	Yes              	| 
-| Assemblying parts 					  	  |                     |
-|Uploading FarmBot firmware (Raspberry pi 3)  |						|
-|Uploading FarmBot firmware (Arduino)		  |						|
+| Printing PCBs							   	  |	30 mins             | 
+| Soldering PCBs   						   	  |	2 hrs              	| 
+| Testing Sensors and motor      		   	  |	2 hrs              	| 
+| Designing and Laser-cutting Box     		  |	40 mins             | 
+| Assemblying parts 					  	  |	1 hr                |
+|Uploading FarmBot firmware (Raspberry pi 3)  |	 					|
+|Uploading FarmBot firmware (Arduino)		  |	25 mins				|
+		
 		
 **2.5.4 Mechanical Assembly**
 
