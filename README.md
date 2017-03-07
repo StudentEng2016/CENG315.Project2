@@ -421,8 +421,8 @@ We would both work on this.
 		
 **2.5.4 Mechanical Assembly**
 
-	![](Software_Overview.png "Software Overview")
-	<center>Image source: [@00000007]</center>
+![](Software_Overview.png "Software Overview")
+<center>Image source: [@00000007]</center>
 
 •	The outer case was made by laser cutter and have a transparent shielding 
 	to have a clear view of the components placed inside.
