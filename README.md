@@ -463,17 +463,12 @@ the components into the case appropriately.
 
 **2.5.5 PCB and Soldering**
 		
-**2.5.6 Power Up**
+**2.5.6 Power Up and Testing**
 
 The project can be tested by giving the commands from the mobile application 
 and the belt moves according to the distance mentioned by the user.
 The Raspberry Pi becomes a hotspot and enables the Wi-Fi 
 connection for the mobile device so that it can connect
-to the web app and interfaces with the hardware.
-
-**2.5.7 Unit Testing**
-		
-**2.5.7 Production Testing**
 
 
 3. Progress Report
