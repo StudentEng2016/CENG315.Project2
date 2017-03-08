@@ -31,6 +31,8 @@ data, figures, tables etc. has been either paraphrased or cited separately. The
 original sources of cited work may be located using APA style in References page
 at the back.
 
+\pagebreak 
+
 Approved Proposal
 =================
 
@@ -197,6 +199,8 @@ an opportunity to integrate the knowledge and skills developed in our program to
 create a collaborative IoT capstone project demonstrating my ability to learn
 how to support projects. We request the approval of this project.
 
+\pagebreak 
+
 Abstract
 ========
 
@@ -209,6 +213,8 @@ substances controlled by axes with the software governed by Arduino/RAMPs stack
 and internet of Raspberry Pi. This project is designed to be completed under the
 time span of 3-4 months to put together everything. It gives user the
 opportunity to customize their own farm using the web app.
+
+\pagebreak 
 
 Table of Contents
 =================
@@ -263,6 +269,8 @@ Table of Contents
 
 6.  [References](#References)
 
+\pagebreak 
+
 List of Illustrations
 =====================
 
@@ -280,12 +288,16 @@ List of Illustrations
 
 -   Figure 7: Software Overview
 
+\pagebreak 
+
 1. Introduction
 ===============
 
 An open source automated farming device which operates like a 3D printer. But
 instead of extruding plastic, its tools are seed injectors, watering nozzles,
 sensors etc.
+
+\pagebreak 
 
 2. Project Description
 ======================
@@ -469,6 +481,8 @@ the belt moves according to the distance mentioned by the user. The Raspberry Pi
 becomes a hotspot and enables the Wi-Fi connection for the mobile device so that
 it can connect
 
+\pagebreak 
+
 3. Progress Report
 ==================
 
@@ -533,6 +547,8 @@ stepper motor.
 Hardware breakdown: We are working on the hardware together.
 
 Sincerely, Adanegbe Amadasun
+
+\pagebreak 
 
 References
 ==========
