@@ -3,7 +3,7 @@ csl: apa.csl
 bibliography: RPiCitations.bib
 ---
 
-Projects website: http://StudentEng2016.github.io/
+Project's website: http://StudentEng2016.github.io/
 
 FarmBot
 =======
@@ -17,6 +17,8 @@ Image source: [@00000001]
 **Discipline: Computer Engineering Technology**
 
 **Date Submitted: March 03,2017**
+
+\pagebreak 
 
 Declaration of Joint Authorship
 ===============================
