@@ -219,55 +219,65 @@ opportunity to customize their own farm using the web app.
 Table of Contents
 =================
 
-1.  [Introduction](#Introduction)
+[Declaration of Joint Authorship](#Declaration of Joint Authorship)
 
-2.  [Project Description](#Project%20Description)
+[Approved Proposal](#Approved Proposal)
 
-    2.1 [Purpose](#Purpose)
+[Executive Summary](#Executive Summary)
 
-    2.2 [Project Overview](#Project%20Overview)
+[Background](#Background)
 
-    2.3 [Hardware Specification](#Hardware%20Specification)
+[Methodology](#Methodology)
 
-    2.4 [Software Specification](#Software%20Specification)
+[Concluding Remarks](#Concluding Remarks)
 
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    2.4.1   [Database work breakdown](#Database work breakdown)
+[Abstract](#Abstract)
 
-    2.4.2   [Application work breakdown](#Application work breakdownwn)
+1.	[Introduction](#Introduction)
 
-    2.4.2   [Web and work breakdown](#Web and work breakdown)
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2.	[Project Description](#Project%20Description)
 
-    2.5 [Build Instruction](#Build%20Instruction)
+    2.1	[Purpose](#Purpose)
 
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    2.5.1 [Bill of Materials](#Bill of Materials)
+    2.2	[Project Overview](#Project%20Overview)
 
-    2.5.2 [Time Commitment](#Time Commitment)
+	2.3	[Hardware Specification](#Hardware%20Specification)
 
-    2.5.3 [Mechanical Assembly](#Mechanical Assembly)   
+    2.4	[Software Specification](#Software%20Specification)
 
-    2.5.4 [PCB and Soldering](#PCB and Soldering)   
+		2.4.1	[Database work breakdown](#Database work breakdown)
 
-    2.5.5 [Power Up](#Power Up)
+		2.4.2	[Application work breakdown](#Application work breakdownwn)
 
-    2.5.6 [Unit Testing](#Unit Testing)
+		2.4.2	[Web and work breakdown](#Web and work breakdown)
 
-    2.5.7 [Production Testing](#Production Testing) 
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    2.5	[Build Instruction](#Build%20Instruction)
+
+		2.5.1	[Bill of Materials](#Bill of Materials)
+
+		2.5.2	[Time Commitment](#Time Commitment)
+
+		2.5.3	[Mechanical Assembly](#Mechanical Assembly)   
+
+		2.5.4	[PCB and Soldering](#PCB and Soldering)   
+
+		2.5.5	[Power Up](#Power Up)
+
+		2.5.6	[Unit Testing](#Unit Testing)
+
+		2.5.7	[Production Testing](#Production Testing) 
 
 3.  [Progress Report](#Progress%20Report)
 
-    3.1 [Report 1](#Report%201)
+    3.1	[Report 1](#Report%201)
 
-    3.2 [Report 2](#Report%202)
+    3.2	[Report 2](#Report%202)
 
-4.  [Conclusion](#Conclusion)
+4.	[Conclusion](#Conclusion)
 
-5.  [Recommendations](#Recommendations)
+5.	[Recommendations](#Recommendations)
 
-6.  [References](#References)
+6.	[References](#References)
 
 \pagebreak 
 
