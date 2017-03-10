@@ -219,7 +219,7 @@ opportunity to customize their own farm using the web app.
 Table of Contents
 =================
 
-[Declaration of Joint Authorship](#Declaration of Joint Authorship)
+[Declaration of Joint Authorship](https://github.com/StudentEng2016/StudentEng2016.github.io#Declaration%20of%20Joint%20Authorship)
 
 [Approved Proposal](#Approved Proposal)
 
