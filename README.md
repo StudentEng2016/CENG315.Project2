@@ -472,7 +472,6 @@ components into the case appropriately.
 **2.5.4 Mechanical Assembly**
 
 
-
 • The outer case was made by laser cutter and have a transparent shielding to
 have a clear view of the components placed inside.
 
