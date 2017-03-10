@@ -221,17 +221,17 @@ Table of Contents
 
 [Declaration of Joint Authorship](https://github.com/StudentEng2016/StudentEng2016.github.io#Declaration%20of%20Joint%20Authorship)
 
-[Approved Proposal](#Approved Proposal)
+[Approved Proposal](https://github.com/StudentEng2016/StudentEng2016.github.io#Approved%20Proposal)
 
-[Executive Summary](#Executive Summary)
+[Executive Summary](https://github.com/StudentEng2016/StudentEng2016.github.io#Executive%20Summary)
 
-[Background](#Background)
+[Background](https://github.com/StudentEng2016/StudentEng2016.github.io#Background)
 
-[Methodology](#Methodology)
+[Methodology](https://github.com/StudentEng2016/StudentEng2016.github.io#Methodology)
 
-[Concluding Remarks](#Concluding Remarks)
+[Concluding Remarks](https://github.com/StudentEng2016/StudentEng2016.github.io#Concluding%20Remarks)
 
-[Abstract](#Abstract)
+[Abstract](https://github.com/StudentEng2016/StudentEng2016.github.io#Abstract)
 
 1.	[Introduction](#Introduction)
 
