@@ -267,7 +267,7 @@ Table of Contents
 
 2.5.7	[Production Testing](#Production Testing) 
 
-3.  [Progress Report](#Progress Report)
+3.	[Progress Report](#Progress Report)
 
 3.1	[Report 1 (Week 5)](#Report 1 (Week 5))
 
