@@ -417,32 +417,39 @@ with the design model given below.
 
 -   Raspberry Pi 3 Complete Starter Kit - 32 GB Edition - \$74.35 [@12345678]
 ![](Raspberry_pi3.jpg)
-
 Image source: [@00000004]
 
 -   Arduino Mega - \$49.95 [@00000008]	
 ![](Arduino_mega2560.jpg)
-
 Image source: [@00000005]
 
 -   5v Switching Power Supply - \$15 [@000000015]
+![](5v-2a-switching-power-supply.jpg)
+Image source: [@00000015]
 
 -   Ramps 1.4 for 3D Printer – \$35.95 [@00000009]
+![](ramps-14-for-3d-printer.jpg)
+Image source: [@00000009]
 
 -   Stepper Motor Driver - \$14.25 [@00000010]
-
-
+![](drv8825-stepper-motor-driver-22a.jpg)
+Image source: [@00000010]
 
 -   Bipolar Stepper Motor - \$29.50 [@00000011]
 ![](steppermotor.jpg)
-
 Image source: [@00000006]
 
 -   Time Pulley - \$9.00 [@00000012]
+![](5mm-gt2-timing-pulley-16-teeth.jpg)
+Image source: [@00000012]
 
 -   Rotary - \$4.95 [@00000013]
+![](pel12s-illuminated-rotary-encoder-100rpm.jpg)
+Image source: [@00000013]
 
 -   Timing Belt - \$19 [@00000014]
+![](2004mm-gt2-timing-belt.jpg)
+Image source: [@00000014]
 
 -   Total = \$284.70 + HST
 
