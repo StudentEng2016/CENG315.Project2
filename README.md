@@ -341,26 +341,18 @@ The hardware component for FarmBot that We have are:
 -   Raspberry pi 3 – It is used to receive data from FarmBot and send it to the
     Arduino
 
-![](Raspberry_pi3.jpg)
-
-Image source: [@00000004]
-
 -   Arduino mega 2560 – It is used to control the bi-polar stepper motor
-
-![](Arduino_mega2560.jpg)
-
-Image source: [@00000005]
 
 -   Sensor Hat (light and temperature) – It is used to receive data about light
     and temperature from surrounding.
 
 -   Bi-polar Stepper motor – It controls the movement of the FarmBot
 
-![](steppermotor.jpg)
-
-Image source: [@00000006]
 
 **2.3 Software Specification**
+![](Software_Overview.png)
+
+Image source: [@00000007]
 
 **2.3.1 Database work breakdown**
 
@@ -424,8 +416,14 @@ with the design model given below.
 **2.5.2 Bill of Materials**
 
 -   Raspberry Pi 3 Complete Starter Kit - 32 GB Edition - \$74.35 [@12345678]
+![](Raspberry_pi3.jpg)
+
+Image source: [@00000004]
 
 -   Arduino Mega - \$49.95 [@00000008]	
+![](Arduino_mega2560.jpg)
+
+Image source: [@00000005]
 
 -   5v Switching Power Supply - \$15 [@000000015]
 
@@ -433,7 +431,12 @@ with the design model given below.
 
 -   Stepper Motor Driver - \$14.25 [@00000010]
 
+
+
 -   Bipolar Stepper Motor - \$29.50 [@00000011]
+![](steppermotor.jpg)
+
+Image source: [@00000006]
 
 -   Time Pulley - \$9.00 [@00000012]
 
@@ -461,9 +464,7 @@ components into the case appropriately.
 
 **2.5.4 Mechanical Assembly**
 
-![](Software_Overview.png)
 
-Image source: [@00000007]
 
 • The outer case was made by laser cutter and have a transparent shielding to
 have a clear view of the components placed inside.
