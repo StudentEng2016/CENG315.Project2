@@ -449,12 +449,15 @@ The design model needs at least 5-6 hours to put everything all together. It
 includes the laser cutting of the outer cage and then soldiering all the
 components into the case appropriately.
 
-\| **Task** \| **Estimated Time**
-\|---------------------------------------------\|---------------------\| \|
-Printing PCBs \| 30 mins \| \| Soldering PCBs \| 2 hrs \| \| Testing Sensors and
-motor \| 2 hrs \| \| Designing and Laser-cutting Box \| 40 mins \| \|
-Assemblying parts \| 1 hr \| \|Uploading FarmBot firmware (Raspberry pi 3) \| \|
-\|Uploading FarmBot firmware (Arduino) \| 25 mins \|
+ **Task**									 | **Estimated Time**
+|--------------------------------------------|---------------------| 
+|Printing PCBs 								 | 30 mins			   | 
+| Soldering PCBs							 | 2 hrs 			   | 
+| Testing Sensors and motor 				 | 2 hrs 			   |
+| Designing and Laser-cutting Box 	   		 | 40 mins 			   |
+|Assemblying parts 							 | 1 hr   			   | 
+|Uploading FarmBot firmware (Raspberry pi 3) | 30 mins			   |
+|Uploading FarmBot firmware (Arduino) 		 | 25 mins 			   |
 
 **2.5.4 Mechanical Assembly**
 
