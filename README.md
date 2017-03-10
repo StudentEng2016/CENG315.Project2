@@ -237,41 +237,41 @@ Table of Contents
 
 2.	[Project Description](#Project%20Description)
 
-    2.1	[Purpose](#Purpose)
+2.1	[Purpose](#Purpose)
 
-    2.2	[Project Overview](#Project%20Overview)
+2.2	[Project Overview](#Project%20Overview)
 
-	2.3	[Hardware Specification](#Hardware%20Specification)
+2.3	[Hardware Specification](#Hardware%20Specification)
 
-    2.4	[Software Specification](#Software%20Specification)
+2.4	[Software Specification](#Software%20Specification)
 
-		2.4.1	[Database work breakdown](#Database work breakdown)
+2.4.1	[Database work breakdown](#Database work breakdown)
 
-		2.4.2	[Application work breakdown](#Application work breakdownwn)
+2.4.2	[Application work breakdown](#Application work breakdownwn)
 
-		2.4.2	[Web and work breakdown](#Web and work breakdown)
+2.4.2	[Web and work breakdown](#Web and work breakdown)
 
-    2.5	[Build Instruction](#Build%20Instruction)
+2.5	[Build Instruction](#Build%20Instruction)
 
-		2.5.1	[Bill of Materials](#Bill of Materials)
+2.5.1	[Bill of Materials](#Bill of Materials)
 
-		2.5.2	[Time Commitment](#Time Commitment)
+2.5.2	[Time Commitment](#Time Commitment)
 
-		2.5.3	[Mechanical Assembly](#Mechanical Assembly)   
+2.5.3	[Mechanical Assembly](#Mechanical Assembly)   
 
-		2.5.4	[PCB and Soldering](#PCB and Soldering)   
+2.5.4	[PCB and Soldering](#PCB and Soldering)   
 
-		2.5.5	[Power Up](#Power Up)
+2.5.5	[Power Up](#Power Up)
 
-		2.5.6	[Unit Testing](#Unit Testing)
+2.5.6	[Unit Testing](#Unit Testing)
 
-		2.5.7	[Production Testing](#Production Testing) 
+2.5.7	[Production Testing](#Production Testing) 
 
 3.  [Progress Report](#Progress%20Report)
 
-    3.1	[Report 1](#Report%201)
+3.1	[Report 1](#Report%201)
 
-    3.2	[Report 2](#Report%202)
+3.2	[Report 2](#Report%202)
 
 4.	[Conclusion](#Conclusion)
 
