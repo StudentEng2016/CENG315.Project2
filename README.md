@@ -39,6 +39,22 @@ Approved Proposal
 Prepared by Adanegbe Amadasun, Alisha Singh Chauhan Computer Engineering
 Technology Students
 
+\pagebreak 
+
+Abstract
+========
+
+The Farmbot is basically CNC farming technique which has proved to be the great
+way for the production of small scale food. It has turned out to be a reliable
+and approachable source to accomplish the idea of integrating an artificial
+approach to take care of the cultivation. This project deals with the following
+hardware components, such as PCF8591 sensors, nozzels which an inject the
+substances controlled by axes with the software governed by Arduino/RAMPs stack
+and internet of Raspberry Pi. This project is designed to be completed under the
+time span of 3-4 months to put together everything. It gives user the
+opportunity to customize their own farm using the web app.
+
+
 Executive Summary
 -----------------
 
@@ -185,7 +201,7 @@ important to start tasks as soon as possible to be able to meet deadlines.
 | Materials to improve functionality, fit, and finish of project.                                                                                                                                                                                                                                                                       |                |                                                                                                                                |
 | **Phase 2 Total**                                                                                                                                                                                                                                                                                                                     | **TBD**        |                                                                                                                                |
 | **Phase 3**                                                                                                                                                                                                                                                                                                                           |                |                                                                                                                                |
-| Off campus colocation                                                                                                                                                                                                                                                                                                                 | \<\$100.00     | An example: [4].                                                                                                               |
+|                                                                                                                                                                                                                                                                                                           | \<\$100.00     | An example: [4].                                                                                                               |
 | *Shipping*                                                                                                                                                                                                                                                                                                                            | *TBD*          |                                                                                                                                |
 | *Tax*                                                                                                                                                                                                                                                                                                                                 | *TBD*          |                                                                                                                                |
 | *Duty*                                                                                                                                                                                                                                                                                                                                | *TBD*          |                                                                                                                                |
@@ -199,20 +215,7 @@ an opportunity to integrate the knowledge and skills developed in our program to
 create a collaborative IoT capstone project demonstrating my ability to learn
 how to support projects. We request the approval of this project.
 
-\pagebreak 
 
-Abstract
-========
-
-The Farmbot is basically CNC farming technique which has proved to be the great
-way for the production of small scale food. It has turned out to be a reliable
-and approachable source to accomplish the idea of integrating an artificial
-approach to take care of the cultivation. This project deals with the following
-hardware components, such as PCF8591 sensors, nozzels which an inject the
-substances controlled by axes with the software governed by Arduino/RAMPs stack
-and internet of Raspberry Pi. This project is designed to be completed under the
-time span of 3-4 months to put together everything. It gives user the
-opportunity to customize their own farm using the web app.
 
 \pagebreak 
 
@@ -303,11 +306,20 @@ List of Illustrations
 1. Introduction
 ===============
 
-An open source automated farming device which operates like a 3D printer. But
+As we are stepping into the 21st century, industrialization is reaching new heights which indeed 
+is giving birth to various problem that could be anywhere. For this reason technologist have being 
+working to figure out all this technical issues and farmbot is one of that.
+
+FarmBot is an open source automated farming device which operates like a 3D printer. But
 instead of extruding plastic, its tools are seed injectors, watering nozzles,
-sensors etc.
+sensors etc. The techincal report is going to address some the problems the agricultural 
+industry faces, such as loss of money, inefficiency of some equipment and
+exploitation of resources. The device is going to be more economical and ecofriendly 
+unlike other conventional agricultural  equipment being used. 
+
 
 \pagebreak 
+
 
 2. Project Description
 ======================
