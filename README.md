@@ -238,7 +238,7 @@ Table of Contents
 
 1.	[Introduction](#Introduction)
 
-2.	[Project Description](#Project%20Description)
+2.	[Project Description](#Project Description)
 
 2.1	[Purpose](#Purpose)
 
