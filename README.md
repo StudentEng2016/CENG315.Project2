@@ -242,11 +242,11 @@ Table of Contents
 
 2.1	[Purpose](#Purpose)
 
-2.2	[Project Overview](#Project%20Overview)
+2.2	[Project Overview](#Project Overview)
 
-2.3	[Hardware Specification](#Hardware%20Specification)
+2.3	[Hardware Specification](#Hardware Specification)
 
-2.4	[Software Specification](#Software%20Specification)
+2.4	[Software Specification](#Software Specification)
 
 2.4.1	[Database work breakdown](#Database work breakdown)
 
@@ -254,7 +254,7 @@ Table of Contents
 
 2.4.2	[Web and work breakdown](#Web and work breakdown)
 
-2.5	[Build Instruction](#Build%20Instruction)
+2.5	[Build Instruction](#Build Instruction)
 
 2.5.1	[Bill of Materials](#Bill of Materials)
 
