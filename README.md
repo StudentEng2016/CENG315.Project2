@@ -1,24 +1,17 @@
----
-csl: apa.csl
-bibliography: RPiCitations.bib
----
-
 Project's website: http://StudentEng2016.github.io/
 
 FarmBot
 =======
 
-![](farmbotv2.png)
+![](media/image1.png)
 
-Image source: [@00000001]
+Image source: (Day, 2016)
 
 **From: Alisha Singh Chauhan, Adanegbe Amadasun**
 
 **Discipline: Computer Engineering Technology**
 
 **Date Submitted: March 03,2017**
-
-\pagebreak 
 
 Declaration of Joint Authorship
 ===============================
@@ -31,15 +24,11 @@ data, figures, tables etc. has been either paraphrased or cited separately. The
 original sources of cited work may be located using APA style in References page
 at the back.
 
-\pagebreak 
-
 Approved Proposal
 =================
 
 Prepared by Adanegbe Amadasun, Alisha Singh Chauhan Computer Engineering
 Technology Students
-
-\pagebreak 
 
 Abstract
 ========
@@ -52,8 +41,13 @@ hardware components, such as PCF8591 sensors, nozzels which an inject the
 substances controlled by axes with the software governed by Arduino/RAMPs stack
 and internet of Raspberry Pi. This project is designed to be completed under the
 time span of 3-4 months to put together everything. It gives user the
-opportunity to customize their own farm using the web app.
-
+opportunity to customize their own farm using the web app.  The software is also
+able to manipulate data maps, real-time logging and access an open plant data in
+the Open Farm database. All software is available under the [MIT
+license](https://en.wikipedia.org/wiki/MIT_License) and is available
+on [GitHub](https://en.wikipedia.org/wiki/GitHub). The hardware is designed
+around reproduce-ability and availability of components, it can be created using
+common tools and processes meaning it is not reliant on a single supplier.
 
 Executive Summary
 -----------------
@@ -94,8 +88,8 @@ minimun wastage. The device is going to be cheaper than conventional tools and
 cost-effective.
 
 We have searched for prior art via Humber’s IEEE subscription selecting “My
-Subscribed Content” [@5306920] and have found and read [@7059344] which provides
-insight into similar efforts.
+Subscribed Content” (Billingsley, Oetomo, & Reid, 2009) and have found and read
+(Bergerman et al., 2015) which provides insight into similar efforts.
 
 In the Computer Engineering Technology program, we have learned about the
 following topics from the respective relevant courses:
@@ -201,88 +195,78 @@ important to start tasks as soon as possible to be able to meet deadlines.
 | Materials to improve functionality, fit, and finish of project.                                                                                                                                                                                                                                                                       |                |                                                                                                                                |
 | **Phase 2 Total**                                                                                                                                                                                                                                                                                                                     | **TBD**        |                                                                                                                                |
 | **Phase 3**                                                                                                                                                                                                                                                                                                                           |                |                                                                                                                                |
-|                                                                                                                                                                                                                                                                                                           | \<\$100.00     | An example: [4].                                                                                                               |
+|                                                                                                                                                                                                                                                                                                                                       | \<\$100.00     | An example: [4].                                                                                                               |
 | *Shipping*                                                                                                                                                                                                                                                                                                                            | *TBD*          |                                                                                                                                |
 | *Tax*                                                                                                                                                                                                                                                                                                                                 | *TBD*          |                                                                                                                                |
 | *Duty*                                                                                                                                                                                                                                                                                                                                | *TBD*          |                                                                                                                                |
 | **Phase 3 Total**                                                                                                                                                                                                                                                                                                                     | **TBD**        |                                                                                                                                |
 
-Concluding Remarks
-------------------
-
-This proposal presents a plan for providing an IoT solution for FarmBot This is
-an opportunity to integrate the knowledge and skills developed in our program to
-create a collaborative IoT capstone project demonstrating my ability to learn
-how to support projects. We request the approval of this project.
-
-
-
-\pagebreak 
-
 Table of Contents
 =================
 
-[Declaration of Joint Authorship](https://github.com/StudentEng2016/StudentEng2016.github.io#Declaration%20of%20Joint%20Authorship)
+[Declaration of Joint
+Authorship](https://github.com/StudentEng2016/StudentEng2016.github.io#Declaration%20of%20Joint%20Authorship)
 
-[Approved Proposal](https://github.com/StudentEng2016/StudentEng2016.github.io#Approved%20Proposal)
+[Approved
+Proposal](https://github.com/StudentEng2016/StudentEng2016.github.io#Approved%20Proposal)
 
-[Executive Summary](https://github.com/StudentEng2016/StudentEng2016.github.io#Executive%20Summary)
+[Executive
+Summary](https://github.com/StudentEng2016/StudentEng2016.github.io#Executive%20Summary)
 
 [Background](https://github.com/StudentEng2016/StudentEng2016.github.io#Background)
 
 [Methodology](https://github.com/StudentEng2016/StudentEng2016.github.io#Methodology)
 
-[Concluding Remarks](https://github.com/StudentEng2016/StudentEng2016.github.io#Concluding%20Remarks)
+[Concluding
+Remarks](https://github.com/StudentEng2016/StudentEng2016.github.io#Concluding%20Remarks)
 
 [Abstract](https://github.com/StudentEng2016/StudentEng2016.github.io#Abstract)
 
-1.	[Introduction](#Introduction)
+1.  [Introduction](#Introduction)
 
-2.	[Project Description](#Project Description)
+2.  [Project Description](#Project%20Description)
 
-2.1	[Purpose](#Purpose)
+2.1 [Purpose](#Purpose)
 
-2.2	[Project Overview](#Project Overview)
+2.2 [Project Overview](#Project%20Overview)
 
-2.3	[Hardware Specification](#Hardware Specification)
+2.3 [Hardware Specification](#Hardware%20Specification)
 
-2.4	[Software Specification](#Software Specification)
+2.4 [Software Specification](#Software%20Specification)
 
-2.4.1	[Database work breakdown](#Database work breakdown)
+2.4.1 [Database work breakdown](#Database%20work%20breakdown)
 
-2.4.2	[Application work breakdown](#Application work breakdownwn)
+2.4.2 [Application work breakdown](#Application%20work%20breakdownwn)
 
-2.4.2	[Web and work breakdown](#Web and work breakdown)
+2.4.2 [Web and work breakdown](#Web%20and%20work%20breakdown)
 
-2.5	[Build Instruction](#Build Instruction)
+2.5 [Build Instruction](#Build%20Instruction)
 
-2.5.1	[Bill of Materials](#Bill of Materials)
+2.5.1 [Bill of Materials](#Bill%20of%20Materials)
 
-2.5.2	[Time Commitment](#Time Commitment)
+2.5.2 [Time Commitment](#Time%20Commitment)
 
-2.5.3	[Mechanical Assembly](#Mechanical Assembly)   
+2.5.3 [Mechanical Assembly](#Mechanical%20Assembly)
 
-2.5.4	[PCB and Soldering](#PCB and Soldering)   
+2.5.4 [PCB and Soldering](#PCB%20and%20Soldering)
 
-2.5.5	[Power Up](#Power Up)
+2.5.5 [Power Up](#Power%20Up)
 
-2.5.6	[Unit Testing](#Unit Testing)
+2.5.6 [Unit Testing](#Unit%20Testing)
 
-2.5.7	[Production Testing](#Production Testing) 
+2.5.7 [Production Testing](#Production%20Testing)
 
-3.	[Progress Report](#Progress Report)
+1.  [Progress Report](#Progress%20Report)
 
-3.1	[Report 1 (Week 5)](#Report 1 (Week 5))
+3.1 [Report 1 (Week 5)](#Report%201%20(Week%205))
 
-3.2	[Report 2 (Week 6)](#Report 2 (Week 6))
+3.2 [Report 2 (Week 6)](#Report%202%20(Week%206))
 
-4.	[Conclusion](#Conclusion)
+1.  [Conclusion](#Conclusion)
 
-5.	[Recommendations](#Recommendations)
+2.  [Recommendations](#Recommendations)
 
-6.	[References](#References)
-
-\pagebreak 
+3.  [References](#References)
 
 List of Illustrations
 =====================
@@ -301,44 +285,66 @@ List of Illustrations
 
 -   Figure 7: Software Overview
 
-\pagebreak 
-
 1. Introduction
 ===============
 
-As we are stepping into the 21st century, industrialization is reaching new heights which indeed 
-is giving birth to various problem that could be anywhere. For this reason technologist have being 
-working to figure out all this technical issues and farmbot is one of that.
+As we are stepping into the 21st century, industrialization is reaching new
+heights which indeed is giving birth to various problem that could be anywhere.
+For this reason, technologist have being working to figure out all these
+technical issues and farmbot is one of that.
 
-FarmBot is an open source automated farming device which operates like a 3D printer. But
-instead of extruding plastic, its tools are seed injectors, watering nozzles,
-sensors etc. The techincal report is going to address some the problems the agricultural 
-industry faces, such as loss of money, inefficiency of some equipment and
-exploitation of resources. The device is going to be more economical and ecofriendly 
-unlike other conventional agricultural  equipment being used. 
+FarmBot is an open source automated farming device which operates like a 3D
+printer. But instead of extruding plastic, its tools are seed injectors,
+watering nozzles, sensors etc. The techincal report is going to address some the
+problems the agricultural industry faces, such as loss of money, inefficiency of
+some equipment and exploitation of resources. The device is going to be more
+economical and ecofriendly unlike other conventional agricultural equipment
+being used.
 
-
-\pagebreak 
-
+The FarmBot Genesis is able to plant over 30 different crops
+including [potatoes](https://en.wikipedia.org/wiki/Potato), [peas](https://en.wikipedia.org/wiki/Pea), [squash](https://en.wikipedia.org/wiki/Cucurbita), [artichokes](https://en.wikipedia.org/wiki/Artichoke) and [chard](https://en.wikipedia.org/wiki/Chard) in
+an area of 2.9 meters × 1.4 meters with a maximum plant height of 0.5 meters. It
+can cultivate a variety of crops within same area at the same time and is able
+to operate indoors, outdoors and covered areas. It is estimated that the FarmBot
+Genesis produces 25% fewer [carbon
+dioxide](https://en.wikipedia.org/wiki/Carbon_dioxide) emissions.
 
 2. Project Description
 ======================
 
 **2.1 Purpose**
 
-FarmBot is going to address some the problems the agricultural industry faces
-like lost of money, how ineffective some of their equipment are and how they
+Farmers are faced with new challenges and opportunities every day -- from
+feeding an expanding global population while meeting strict new emissions
+requirements, to producing more food on fewer acres while minimizing their
+environmental footprint.
+
+FarmBot is going to address some of the problems the agricultural industry faces
+like loss of money, how ineffective some of their equipment are and how they
 waste resources.
+
+The various issues are:
+
+-   Supplying the growing global demand for commodities arising from developing
+    economies and world population growth.
+
+-   Availability and price of land for expansion
+
+-   Development and use of bio-based fuels
+
+-   Nearly 25 percent of respondents indicate that equipment dealers/experts
+    will be one of the top advisors to influence their decision making, along
+    with their financial advisor and agronomist advisors
 
 **2.2 Hardware Specification**
 
-![](FarmBotSystem2.jpg)
+![](media/image2.jpg)
 
-Image source: [@00000003]
+Image source: (Krassenstein, 2014)
 
-![](FarmBotSystem3.jpg)
+![](media/image3.jpg)
 
-Image source: [@00000002]
+Image source: (Inc, 2017)
 
 (Describe farmbot parts)
 
@@ -360,11 +366,11 @@ The hardware component for FarmBot that We have are:
 
 -   Bi-polar Stepper motor – It controls the movement of the FarmBot
 
-
 **2.3 Software Specification**
-![](Software_Overview.png)
 
-Image source: [@00000007]
+![](media/image4.png)
+
+Image source: (Aronson, 2017)
 
 **2.3.1 Database work breakdown**
 
@@ -427,41 +433,60 @@ with the design model given below.
 
 **2.5.2 Bill of Materials**
 
--   Raspberry Pi 3 Complete Starter Kit - 32 GB Edition - \$74.35 [@12345678]
-![](Raspberry_pi3.jpg)
-Image source: [@00000004]
+-   Raspberry Pi 3 Complete Starter Kit - 32 GB Edition - \$74.35 (Corporation,
+    2017)
 
--   Arduino Mega - \$49.95 [@00000008]	
-![](Arduino_mega2560.jpg)
-Image source: [@00000005]
+-   [media/image5.jpg](media/image5.jpg)
 
--   5v Switching Power Supply - \$15 [@000000015]
-![](5v-2a-switching-power-supply.jpg)
-Image source: [@00000015]
+    Image source: (Pimoroni, 2017)
 
--   Ramps 1.4 for 3D Printer – \$35.95 [@00000009]
-![](ramps-14-for-3d-printer.jpg)
-Image source: [@00000009]
+-   Arduino Mega - \$49.95 (Inc., 2017e)
 
--   Stepper Motor Driver - \$14.25 [@00000010]
-![](drv8825-stepper-motor-driver-22a.jpg)
-Image source: [@00000010]
+-   [media/image6.jpg](media/image6.jpg)
 
--   Bipolar Stepper Motor - \$29.50 [@00000011]
-![](steppermotor.jpg)
-Image source: [@00000006]
+    Image source: (Robotics & Electronics, 2017)
 
--   Time Pulley - \$9.00 [@00000012]
-![](5mm-gt2-timing-pulley-16-teeth.jpg)
-Image source: [@00000012]
+-   5v Switching Power Supply - \$15 (**???**)
 
--   Rotary - \$4.95 [@00000013]
-![](pel12s-illuminated-rotary-encoder-100rpm.jpg)
-Image source: [@00000013]
+-   [media/image7.jpg](media/image7.jpg)
 
--   Timing Belt - \$19 [@00000014]
-![](2004mm-gt2-timing-belt.jpg)
-Image source: [@00000014]
+    Image source: (Inc., 2017c)
+
+-   Ramps 1.4 for 3D Printer – \$35.95 (Inc., 2017h)
+
+-   [media/image8.jpg](media/image8.jpg)
+
+    Image source: (Inc., 2017h)
+
+-   Stepper Motor Driver - \$14.25 (Inc., 2017f)
+
+-   [media/image9.jpg](media/image9.jpg)
+
+    Image source: (Inc., 2017f)
+
+-   Bipolar Stepper Motor - \$29.50 (Inc., 2017d)
+
+-   [media/image10.jpg](media/image10.jpg)
+
+    Image source: (Controls, 2017)
+
+-   Time Pulley - \$9.00 (Inc., 2017b)
+
+-   [media/image11.jpg](media/image11.jpg)
+
+    Image source: (Inc., 2017b)
+
+-   Rotary - \$4.95 (Inc., 2017g)
+
+-   [media/image12.jpg](media/image12.jpg)
+
+    Image source: (Inc., 2017g)
+
+-   Timing Belt - \$19 (Inc., 2017a)
+
+-   [media/image13.jpg](media/image13.jpg)
+
+    Image source: (Inc., 2017a)
 
 -   Total = \$284.70 + HST
 
@@ -471,18 +496,17 @@ The design model needs at least 5-6 hours to put everything all together. It
 includes the laser cutting of the outer cage and then soldiering all the
 components into the case appropriately.
 
- **Task**									 | **Estimated Time**
-|--------------------------------------------|---------------------| 
-|Printing PCBs 								 | 30 mins			   | 
-| Soldering PCBs							 | 2 hrs 			   | 
-| Testing Sensors and motor 				 | 2 hrs 			   |
-| Designing and Laser-cutting Box 	   		 | 40 mins 			   |
-|Assemblying parts 							 | 1 hr   			   | 
-|Uploading FarmBot firmware (Raspberry pi 3) | 30 mins			   |
-|Uploading FarmBot firmware (Arduino) 		 | 25 mins 			   |
+| **Task**                                    | **Estimated Time** |
+|---------------------------------------------|--------------------|
+| Printing PCBs                               | 30 mins            |
+| Soldering PCBs                              | 2 hrs              |
+| Testing Sensors and motor                   | 2 hrs              |
+| Designing and Laser-cutting Box             | 40 mins            |
+| Assemblying parts                           | 1 hr               |
+| Uploading FarmBot firmware (Raspberry pi 3) | 30 mins            |
+| Uploading FarmBot firmware (Arduino)        | 25 mins            |
 
 **2.5.4 Mechanical Assembly**
-
 
 • The outer case was made by laser cutter and have a transparent shielding to
 have a clear view of the components placed inside.
@@ -512,8 +536,6 @@ The project can be tested by giving the commands from the mobile application and
 the belt moves according to the distance mentioned by the user. The Raspberry Pi
 becomes a hotspot and enables the Wi-Fi connection for the mobile device so that
 it can connect
-
-\pagebreak 
 
 3. Progress Report
 ==================
@@ -580,9 +602,100 @@ Hardware breakdown: We are working on the hardware together.
 
 Sincerely, Adanegbe Amadasun
 
-\pagebreak 
+Concluding Remarks
+------------------
+
+This proposal presents a plan for providing an IoT solution for FarmBot This is
+an opportunity to integrate the knowledge and skills developed in our program to
+create a collaborative IoT capstone project demonstrating my ability to learn
+how to support projects. By preparing this technical report we request the
+approval of this project as our Farmbot tries to get rid of all these problems
+by providing all the advantages listed underneath:
+
+-   Ability to plant polycrops in a machine efficient manner
+
+-   Ability to optimize operations such as watering, spraying, and seed spacing
+
+-   Full automation and 24/7 possible operation
+
+-   Virtually unlimited farm design possibilities
+
+-   Incorporates "Big Data" acquisition and analysis for data-driven decision
+    making and "Smart Farming"
+
+-   Ability to plant in the most space efficient layouts
+
+-   Scalable from a backyard system to an industrial operation
+
+-   Allows for the democratization and decentralization of food production
+
+-   Free and open-source, fully documented, hackable, and accessible
 
 References
 ==========
 
+Aronson, R. (2017). Project details. Retrieved from
+[https://hackaday.io/post/7593 ](https://hackaday.io/post/7593%20)
 
+Bergerman, M., Maeta, S. M., Zhang, J., Freitas, G. M., Hamner, B., Singh, S., &
+Kantor, G. (2015). Robot farmers: Autonomous orchard vehicles help tree fruit
+production. *IEEE Robotics Automation Magazine*, *22*(1), 54–63.
+<https://doi.org/10.1109/MRA.2014.2369292>
+
+Billingsley, J., Oetomo, D., & Reid, J. (2009). Agricultural robotics [tC
+spotlight]. *IEEE Robotics Automation Magazine*, *16*(4), 16–16, 19.
+<https://doi.org/10.1109/MRA.2009.934829>
+
+Controls, O. (2017). Bipolar stepper motor 42BYGHM809. Retrieved from
+[https://oceancontrols.com.au/SFM-002.html
+](https://oceancontrols.com.au/SFM-002.html%20)
+
+Corporation, C. (2017). Raspberry pi 3 complete starter kit - 32 gB edition.
+Retrieved from <https://www.canakit.com/raspberry-pi-3-starter-kit.html>
+
+Day, S. (2016). Farmbot: The robot to grow your garden with ease. Retrieved from
+<http://www.directcannabisnetwork.com/farmbot-the-robot-to-grow-your-garden-with-ease/>
+
+Inc, F. (2017). Interchangeable tooling. Retrieved from <https://farmbot.io/>
+
+Inc., C. (2017a). 2004MM gT2 tIMING bELT. Retrieved from
+[https://www.creatroninc.com/product/2004mm-gt2-timing-belt/?search\_query=+Timing+Belt&results=12
+](https://www.creatroninc.com/product/2004mm-gt2-timing-belt/?search_query=+Timing+Belt&results=12%20)
+
+Inc., C. (2017b). 5MM gT2 tIMING pULLEY - 16 tEETH. Retrieved from
+[https://www.creatroninc.com/product/5mm-gt2-timing-pulley-16-teeth/?search\_query=Pulley&results=15
+](https://www.creatroninc.com/product/5mm-gt2-timing-pulley-16-teeth/?search_query=Pulley&results=15%20)
+
+Inc., C. (2017c). 5V 2A sWITCHING pOWER sUPPLY. Retrieved from
+[https://www.creatroninc.com/product/5v-2a-switching-power-supply/?search\_query=5v+Switching+Power+Supply&results=9
+](https://www.creatroninc.com/product/5v-2a-switching-power-supply/?search_query=5v+Switching+Power+Supply&results=9%20)
+
+Inc., C. (2017d). ANEMA-17 bIPOLAR sTEPPER mOTOR. Retrieved from
+[https://www.creatroninc.com/product/nema-17-bipolar-stepper-motor-49kgcm/?search\_query=Bipolar+Stepper+Motor&results=20
+](https://www.creatroninc.com/product/nema-17-bipolar-stepper-motor-49kgcm/?search_query=Bipolar+Stepper+Motor&results=20%20)
+
+Inc., C. (2017e). Arduino mega 2560 rev3. Retrieved from
+[https://www.creatroninc.com/product/arduino-mega-2560-rev3/
+](https://www.creatroninc.com/product/arduino-mega-2560-rev3/%20)
+
+Inc., C. (2017f). DRV8825 stepper motor driver. Retrieved from
+[https://www.creatroninc.com/product/drv8825-stepper-motor-driver-22a/?search\_query=Stepper+Motor+Driver&results=29
+](https://www.creatroninc.com/product/drv8825-stepper-motor-driver-22a/?search_query=Stepper+Motor+Driver&results=29%20)
+
+Inc., C. (2017g). PEL12S iLLUMINATED rOTARY eNCODER - 100RPM. Retrieved from
+[https://www.creatroninc.com/product/pel12s-illuminated-rotary-encoder-100rpm/?search\_query=Rotary+&results=18
+](https://www.creatroninc.com/product/pel12s-illuminated-rotary-encoder-100rpm/?search_query=Rotary+&results=18%20)
+
+Inc., C. (2017h). RAMPS 1.4 fOR 3D pRINTER. Retrieved from
+[https://www.creatroninc.com/product/ramps-14-for-3d-printer/?search\_query=Ramps+1.4+for+3D+Printer+&results=3
+](https://www.creatroninc.com/product/ramps-14-for-3d-printer/?search_query=Ramps+1.4+for+3D+Printer+&results=3%20)
+
+Krassenstein, E. (2014). FarmBot: An open source 3D farming printer that aims to
+create food for everyone. Retrieved from
+<https://3dprint.com/12325/farmbot-3d-farming-printer/>
+
+Pimoroni. (2017). Raspberry pi 3. Retrieved from
+<https://shop.pimoroni.com/products/raspberry-pi-3>
+
+Robotics, P., & Electronics. (2017). Arduino mega 2560 r3. Retrieved from
+[https://www.pololu.com/product/1699](%20https://www.pololu.com/product/1699)
