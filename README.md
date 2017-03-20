@@ -45,16 +45,42 @@ Technology Students
 Abstract
 ========
 
-The Farmbot is basically CNC farming technique which has proved to be the great
-way for the production of small scale food. It has turned out to be a reliable
-and approachable source to accomplish the idea of integrating an artificial
-approach to take care of the cultivation. This project deals with the following
-hardware components, such as PCF8591 sensors, nozzels which an inject the
-substances controlled by axes with the software governed by Arduino/RAMPs stack
-and internet of Raspberry Pi. This project is designed to be completed under the
-time span of 3-4 months to put together everything. It gives user the
-opportunity to customize their own farm using the web app.
+The Farmbot is basically CNC farming technique which has proved to be the great way for the production of small scale food. 
+It has turned out to be a reliable and approachable source to accomplish the idea of integrating an artificial approach 
+to take care of the cultivation. This project deals with the following hardware components, such as PCF8591 sensors, 
+nozzels which an inject the substances controlled by axes with the software governed by Arduino/RAMPs stack and 
+internet of Raspberry Pi. This project is designed to be completed under the time span of 3-4 months to put together everything. 
+It gives user the opportunity to customize their own farm using the web app.  The software is also able to manipulate data maps, 
+real-time logging and access an open plant data in the Open Farm database. All software is available under the MIT license 
+and is available on GitHub. The hardware is designed around reproduce-ability and availability of components, 
+it can be created using common tools and processes meaning it is not reliant on a single supplier.
 
+
+
+ Need Reviewing 
+ [
+FarmBot is going to address some the problems the agricultural industry faces, such as loss of money, inefficiency of 
+some equipment and exploitation of resources. FarmBot is going to be more economical and ecofriendly unlike other agricultural
+ equipment being used. It incorporates precision farming, which happens to be a concept based on observing, measuring and responding 
+ to inter- and intra-field variability in crops. The device is going to be constructed in the FarmBot company. 
+ It is going to be made of an Arduino Mega 2560, Raspberry Pi 3, disassembled hardware packages and other software sources. 
+ The FarmBot Genesis runs on custom built tracks and other supporting infrastructure which needs to be self assembled. 
+ The robot itself relies on a GUI platform which users can access through the FarmBot’s web app. 
+ The physical robotic system is set in alignment with the crops that are plotted out in the virtual version on the web app. 
+ This is how FarmBot can be efficient and reliably distribute water, fertilizer and other elements to keep the plants healthy 
+ and striving with minimun wastage. The device is going to be cheaper than conventional tools and cost-effective.
+ 
+We have searched for prior art via Humber’s IEEE subscription selecting “My Subscribed Content” (Billingsley, Oetomo, & Reid, 2009) and have found and read (Bergerman et al., 2015) which provides insight into similar efforts.
+In the Computer Engineering Technology program, we have learned about the following topics from the respective relevant courses:
+-	Java Docs from CENG 212 Programming Techniques In Java,
+-	Construction of circuits from CENG 215 Digital And Interfacing Systems,
+-	Rapid application development and Gantt charts from CENG 216 Intro to Software Engineering,
+-	Micro computing from CENG 252 Embedded Systems,
+-	SQL from CENG 254 Database With Java,
+-	Web access of databases from CENG 256 Internet Scripting; and,
+-	Wireless protocols such as 802.11 from TECH152 Telecom Networks.
+This knowledge and skill set will enable me to build the subsystems and integrate them together as my capstone project.
+]
 
 Executive Summary
 -----------------
@@ -318,6 +344,10 @@ industry faces, such as loss of money, inefficiency of some equipment and
 exploitation of resources. The device is going to be more economical and ecofriendly 
 unlike other conventional agricultural  equipment being used. 
 
+The FarmBot Genesis is able to plant over 30 different crops including potatoes, peas, squash, artichokes
+and chard in an area of 2.9 meters × 1.4 meters with a maximum plant height of 0.5 meters. 
+It can cultivate a variety of crops within same area at the same time and is able to operate indoors, 
+outdoors and covered areas. It is estimated that the FarmBot Genesis produces 25% fewer carbon dioxide emissions.
 
 \pagebreak 
 
@@ -327,9 +357,22 @@ unlike other conventional agricultural  equipment being used.
 
 **2.1 Purpose**
 
-FarmBot is going to address some the problems the agricultural industry faces
-like lost of money, how ineffective some of their equipment are and how they
-waste resources.
+Farmers are faced with new challenges and opportunities every day from feeding an expanding global population 
+while meeting strict new emissions requirements, to producing more food on fewer acres while minimizing their 
+environmental footprint. FarmBot is going to address some of the problems the agricultural industry faces 
+like loss of money, how ineffective some of their equipment are and how they waste resources.
+
+The various issues are:
+
+-	Supplying the growing global demand for commodities arising from developing economies and world population growth.
+
+-	Availability and price of land for expansion.
+
+-	Development and use of bio-based fuels.
+
+-	Nearly 25 percent of respondents indicate that equipment dealers/experts will be one of the top advisors 
+	to influence their decision making, along with their financial advisor and agronomist advisors.
+
 
 **2.2 Hardware Specification**
 
