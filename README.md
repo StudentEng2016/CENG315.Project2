@@ -50,6 +50,7 @@ It has turned out to be a reliable and approachable source to accomplish the ide
 to take care of the cultivation. This project deals with the following hardware components, such as PCF8591 sensors, 
 nozzels which an inject the substances controlled by axes with the software governed by Arduino/RAMPs stack and 
 internet of Raspberry Pi. This project is designed to be completed under the time span of 3-4 months to put together everything. 
+
 It gives user the opportunity to customize their own farm using the web app.  The software is also able to manipulate data maps, 
 real-time logging and access an open plant data in the Open Farm database. All software is available under the MIT license 
 and is available on GitHub. The hardware is designed around reproduce-ability and availability of components, 
@@ -93,7 +94,9 @@ mobile device application. The Internet connected hardware will include a custom
 PCB with sensors and actuators for an automated farming device. The mobile
 device functionality will include photo sensors, temperature sensors and
 moisture sensors, which will be further detailed in the mobile application
-proposal. We will be collaborating with the following company/department. In the
+proposal. 
+
+We will be collaborating with the following company/department. In the
 winter semester, we planned to form a group together as we both are building
 similar hardware this term and working on its mobile application. The hardware
 was completed in CENG 317 Hardware Production Techniques independently and the
@@ -109,13 +112,17 @@ resources. FarmBot is going to be more economical and ecofriendly unlike other
 agricultural equipment being used. It incorporates precision farming, which
 happens to be a concept based on observing, measuring and responding to inter-
 and intra-field variability in crops. The device is going to be constructed in
-the FarmBot company. It is going to be made of an Arduino Mega 2560, Raspberry
+the FarmBot company. 
+
+It is going to be made of an Arduino Mega 2560, Raspberry
 Pi 3, disassembled hardware packages and other software sources. The FarmBot
 Genesis runs on custom built tracks and other supporting infrastructure which
 needs to be self assembled. The robot itself relies on a GUI platform which
 users can access through the FarmBot’s web app. The physical robotic system is
 set in alignment with the crops that are plotted out in the virtual version on
-the web app. This is how FarmBot can be efficient and reliably distribute water,
+the web app. 
+
+This is how FarmBot can be efficient and reliably distribute water,
 fertilizer and other elements to keep the plants healthy and striving with
 minimun wastage. The device is going to be cheaper than conventional tools and
 cost-effective.
@@ -564,7 +571,8 @@ it can connect
 
 **3.1 Report 1 (Week 5)**
 
-From: Adanegbe Amadasun Cc: Alisha Singh Chauhan
+From: Adanegbe Amadasun 
+Cc: Alisha Singh Chauhan
 
 Dear Sir,
 
@@ -588,7 +596,8 @@ Sincerely, Adanegbe Amadasun
 
 **3.2 Report 2 (Week 6)**
 
-From: Adanegbe Amadasun Cc: Alisha Singh Chauhan Dear Sir,
+From: Adanegbe Amadasun 
+Cc: Alisha Singh Chauhan Dear Sir,
 
 This is our email regarding progress report and the milestone we have covered so
 far on our project. We now have a better understanding on how to go about our
@@ -623,6 +632,82 @@ stepper motor.
 Hardware breakdown: We are working on the hardware together.
 
 Sincerely, Adanegbe Amadasun
+
+**3.3 Report 3 (Week 10)**
+
+
+From: Alisha Singh Chauhan
+Cc: Adanegbe Amadasun
+
+Dear Sir,
+
+This is our email regarding progress report and the milestone we have covered 
+so far on our project.
+
+For Arduino OS
+
+We opened the serial monitor on Arduino IDE to enter g codes to move the stepper motor,
+after entering the code, nothing happened. Then we loaded the teacup firmware into 
+the Arduino and tested the g code, and the worked.
+
+We opened putty, changed the connection type from ssh to serial, check Xloader 
+to determine the baud rate because putty required it. Then we saved the session 
+I made on putty as farmbot so next time, all we need to do is load the saved session.
+After saving the session, we proceeded to load it and I still encountered the similar issue. 
+Putty did not allow us to enter the code.
+
+When FarmBot OS is loaded and we test the g command, Arduino send the stat of 
+the stepper motor position to my PC and we could see it through the serial monitor on Arduino IDE,
+but it doesn’t accept command, because commands are suppose to be sent by the raspberry pi. 
+We used the table below to understand what the stats of the stepper that was sent by the Arduino.
+ 
+ 
+**Code** |**Number**|**Parameters**		|**Function**
+----------------------------------------------------------------------
+|R		 |	 	 	|					|Report messages
+|R		 |01	 	|					|Current command start
+|R		 |02	 	|					|Current command finished successfully
+|R		 |03	 	|					|Current command finished with error
+|R		 |04	 	|					|Current command running
+|R		 |05	 	|					|Report motor/axis state
+|R		 |06	 	|					|Report calibration state during execution
+|R		 |21		|P V				|Report parameter value
+|R		 |31		|P V				|Report status value
+|R		 |41		|P V				|Report pin value
+|R		 |81		|X1 X2 Y1 Y2 Z1 Z2	|Reporting end stops - parameters: X1 (end stop x axis min) X2 (end stop x axis max) Y1 Y2 Z1 Z2
+|R		 |82		|X Y Z				|Report current position
+|R		 |83		|C					|Report software version
+|R		 |99		|C					|Debug message
+ 
+ 
+We also create a text file on notepad ++, and wrote the command for the different positions for the stepper motor. 
+The three position am using are: G0 X1 for home position, G0.6 X1 for measuring moisture position, 
+and G1.2 for watering position. We then proceed to load the file but we notice 
+the stepper motor did not pause between position, we went on the website [@00000017](http://reprap.org/wiki/G-code#G4:_Dwell)
+which show us how to add pause to my command to make the stepper motor pause at each position.
+
+For FarmBot OS
+
+We were still kind of stuck troubleshooting for the FarmBot firmware to work. 
+We were trying to figure out if the Raspberry pi could work with the ssh terminal because 
+when we downloaded the firmware for farmbot as the raspberrian software was removed it stopped showing the display.
+
+Then we tried finding the way out to have the interaction of the firmware with 
+the internet using the IP address of the raspberry pi. We even tried using the website
+[@00000016](https://github.com/FarmBot/farmbot_os/blob/master/docs/FAQ.md ) we couldn’t get it working yet. 
+We did not purchase anything extra till now for the project so our budget is still the same.
+
+ We got the router from the school but Mehdi could not help us configure the router because he is on vacation this week.
+ 
+ 
+ 
+Sincerely,
+Alisha Singh Chauhan
+
+
+
+
+
 
 \pagebreak 
 
