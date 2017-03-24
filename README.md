@@ -274,41 +274,41 @@ Table of Contents
 
 2.	[Project Description](#Project Description)
 
-	2.1	[Purpose](#Purpose)
+2.1	[Purpose](#Purpose)
 
-	2.2	[Project Overview](#Project Overview)
+2.2	[Project Overview](#Project Overview)
 
-	2.3	[Hardware Specification](#Hardware Specification)
+2.3	[Hardware Specification](#Hardware Specification)
 
-	2.4	[Software Specification](#Software Specification)
+2.4	[Software Specification](#Software Specification)
 
-		2.4.1	[Database work breakdown](#Database work breakdown)
+2.4.1	[Database work breakdown](#Database work breakdown)
 
-		2.4.2	[Application work breakdown](#Application work breakdownwn)
+2.4.2	[Application work breakdown](#Application work breakdownwn)
 
-		2.4.2	[Web and work breakdown](#Web and work breakdown)
+2.4.2	[Web and work breakdown](#Web and work breakdown)
 
-	2.5	[Build Instruction](#Build Instruction)
+2.5	[Build Instruction](#Build Instruction)
 
-		2.5.1	[Bill of Materials](#Bill of Materials)
+2.5.1	[Bill of Materials](#Bill of Materials)
 
-		2.5.2	[Time Commitment](#Time Commitment)
+2.5.2	[Time Commitment](#Time Commitment)
 
-		2.5.3	[Mechanical Assembly](#Mechanical Assembly)   
+2.5.3	[Mechanical Assembly](#Mechanical Assembly)   
 
-		2.5.4	[PCB and Soldering](#PCB and Soldering)   
+2.5.4	[PCB and Soldering](#PCB and Soldering)   
 
-		2.5.5	[Power Up](#Power Up)
+2.5.5	[Power Up](#Power Up)
 
-		2.5.6	[Unit Testing](#Unit Testing)
+2.5.6	[Unit Testing](#Unit Testing)
 
-		2.5.7	[Production Testing](#Production Testing) 
+2.5.7	[Production Testing](#Production Testing) 
 
 3.	[Progress Report](#Progress Report)
 
-	3.1	[Report 1 (Week 5)](#Report 1 (Week 5))
+3.1	[Report 1 (Week 5)](#Report 1 (Week 5))
 
-	3.2	[Report 2 (Week 6)](#Report 2 (Week 6))
+3.2	[Report 2 (Week 6)](#Report 2 (Week 6))
 
 4.	[Conclusion](#Conclusion)
 
@@ -566,6 +566,7 @@ it can connect
 
 \pagebreak 
 
+
 3. Progress Report
 ==================
 
@@ -715,44 +716,3 @@ Alisha Singh Chauhan
 References
 ==========
 
-[@5306920]
-
-[@7059344]
-
-[@12345678]
-
-[@00000002]
-
-[@00000001]
-
-[@00000003]
-
-[@00000004]
-
-[@00000005]
-
-[@00000006]
-
-[@00000007]
-
-[@00000008]
-
-[@00000009]
-
-[@00000010]
-
-[@00000011]
-
-[@00000012]
-
-[@00000013]
-
-[@00000014]
-
-[@00000015]
-
-[@00000016]
-
-[@00000017]
-
-[@00000018]
