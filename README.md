@@ -597,7 +597,9 @@ Sincerely, Adanegbe Amadasun
 **3.2 Report 2 (Week 6)**
 
 From: Adanegbe Amadasun 
-Cc: Alisha Singh Chauhan Dear Sir,
+Cc: Alisha Singh Chauhan 
+
+Dear Sir,
 
 This is our email regarding progress report and the milestone we have covered so
 far on our project. We now have a better understanding on how to go about our
@@ -678,6 +680,27 @@ We used the table below to understand what the stats of the stepper that was sen
 |R		 |82		|X Y Z				|Report current position																			   |			
 |R		 |83		|C					|Report software version																			   |				
 |R		 |99		|C					|Debug message																						   |
+
+
+Code type|Number|Parameters|Function
+---------|------|----------|--------
+R        |      |          |Report messages
+R        |01    |          |Current command started
+R        |02    |          |Current command finished successfully
+R        |03    |          |Current command finished with error
+R        |04    |          |Current command running
+R        |05    |          |Report motor/axis state
+R        |06    |          |Report calibration state during execution
+R        |21    |P V       |Report parameter value
+R        |31    |P V       |Report status value
+R        |41    |P V       |Report pin value
+R        |81    |X1 X2 Y1 Y2 Z1 Z2|Reporting end stops - parameters: X1 (end stop x axis min) X2 (end stop x axis max) Y1 Y2 Z1 Z2
+R        |82    |X Y Z     |Report current position
+R        |83    |C         |Report software version
+R        |99    |C         |Debug message
+
+
+
  
  
 We also create a text file on notepad ++, and wrote the command for the different positions for the stepper motor. 
