@@ -663,7 +663,7 @@ We used the table below to understand what the stats of the stepper that was sen
  
  
 **Code** |**Number**|**Parameters**		|**Function**
------------------------------------------------------------------------------------------------------------------------------------------------|
+|----------------------------------------------------------------------------------------------------------------------------------------------|
 |R		 |	 	 	|					|Report messages																					   |
 |R		 |01	 	|					|Current command start																				   |
 |R		 |02	 	|					|Current command finished successfully																   |
