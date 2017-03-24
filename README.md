@@ -290,19 +290,19 @@ Table of Contents
 
 2.5	[Build Instruction](#Build Instruction)
 
-2.5.1	[Bill of Materials](#Bill of Materials)
+2.5.1	[Introduction](#Introduction)
 
-2.5.2	[Time Commitment](#Time Commitment)
+2.5.2	[Bill of Materials](#Bill of Materials)
 
-2.5.3	[FarmBot Raspberry Pi 3 OS](#FarmBot Raspberry Pi 3 OS)   
+2.5.3	[Time Commitment](#Time Commitment)
 
-2.5.4	[PCB and Soldering](#PCB and Soldering)   
+2.5.4	[FarmBot Raspberry Pi 3 OS](#FarmBot Raspberry Pi 3 OS)   
 
-2.5.5	[Power Up](#Power Up)
+2.5.5	[FarmBot Arduino OS](#FarmBot Arduino OS)   
 
-2.5.6	[Unit Testing](#Unit Testing)
+2.5.6	[Teacup Firmware](#Teacup Firmware)
 
-2.5.7	[Production Testing](#Production Testing) 
+2.5.7	[Power Up and Testing](#Power Up and Testing)
 
 3.	[Progress Report](#Progress Report)
 
@@ -584,15 +584,104 @@ Step 5. Configure your FarmBot
 Once you save your configuration, FarmBot will connect to your home Wi Fi 
 network and to the FarmBot web application
 
+**2.5.5 FarmBot Arduino OS**
 
-**2.5.5 PCB and Soldering**
+To upload FarmBot OS on Arduino Mega 2560 according to [@00000020] 
+There are two methods 
 
-**2.5.6 Power Up and Testing**
+Using Web App
+Note: You can only use this method if you already have FarmBot OS 
+installed on your Raspberry Pi 3.
 
-The project can be tested by giving the commands from the mobile application and
-the belt moves according to the distance mentioned by the user. The Raspberry Pi
-becomes a hotspot and enables the Wi-Fi connection for the mobile device so that
-it can connect
+•	Connect your your Arduino to Raspberry using your USB cable
+
+•	Login to the FarmBot Web Application, if you already have already an account
+	but if you don't create one. Then go to the Device page.
+
+•	In the Device widget, click the Update button next to the Firmware version. 
+	This will tell the Raspberry Pi to download the latest FarmBot Arduino firmware 
+	and install it onto the Arduino. 
+	Note: This may take a few minutes. Do not press the Update button more than once.
+
+
+•	Once the installation process is complete, the software widget on the web application
+	should show that the latest firmware is installed. There is no need to 'start the firmware' 
+	because as long as the Arduino has power and a connection to the Raspberry Pi, 
+	the firmware will be running.
+
+Using Arduino IDE
+
+•	Go to the website https://www.arduino.cc/en/main/software to download Arduino IDE.
+
+•	After downloading Arduino IDE install it on your computer, and Run it. 
+
+•	Download and unzip the latest from FarmBot Arduino Firmware release.
+
+•	In the firmware folder, you just unzipped, go to the src sub-folder 
+	and open up src with the Arduino IDE. Note: this file is blank, 	
+	but there are many other file tabs that should be automatically opened as well.
+	
+•	Once that is complete, connect Arduino Mega 2560 to your computer using your USB cable 
+	(Note: Arduino Mega 2560 uses a printer USB cable).
+	
+•	Click on the Tools tab, it shows a dropdown menu which you would 
+	then select Board and click on Arduino Mega 2560.
+	
+•	After you are done with that, click on the upload button. 
+	This will then upload the FarmBot Arduino OS to your Arduino Mega 2560.
+
+**2.5.6 Teacup Firmware**
+
+Teacup Firmware
+
+To upload Teacup firmware on Arduino Mega 2560 according to [@00000021] 
+(Note: you will need Python 2.7.x or later, but not Python 3.x.)
+
+•	Download Teacup firmware from this website Teacup Firmware master branch package and unpack it. 
+
+•	After downloading it, open just the unpackaged directory and double-click configtool.py to start it.
+
+•	Choose Menu -> File -> Load printer and select the one closest to the printer you want to operate.
+
+•	Choose Menu -> File -> Load board and again select the one closest to (or matching) your actual hardware.
+
+•	Choose Menu -> File -> Save config.h.
+
+•	Choose Menu -> Edit -> Settings like the Arduino directory, the port directory,
+	baud rate etc. After editing the settings, click save.  
+ 
+•	Now you need to build it so choose Menu -> Build -> Build.
+
+•	To upload the firmware into your Arduino, choose Menu -> Build -> Upload
+
+**2.5.7 Power Up and Testing**
+
+To test Teacup firmware, you would have to use pronterface.
+Pronterface
+
+Pronterface is used to send g command or code to Arduino firmware. 
+
+•	Download the latest version of pronterface for your PC, 
+	form this website http://kliment.kapsi.fi/printrun/
+	
+•	Enter your baud rate and port 
+
+•	Click connect and the grayed out X axis and Y axis should turn coloured
+
+•	You can either click on the X axis or Y axis to move the stepper motor,
+	or enter the g command and click send to move the stepper motor
+
+Powering up Arduino Mega 2560
+
+Powering up your Arduino Mega 2560 and Stepper Motor
+
+•	Arduino Mega gets enough power to wok when it is connected to your computer through a USB cable. 
+
+•	Tune the potentiometer on the stepper motor to limit the current to 0.6 amps
+
+•	Set the power supply to be 10V 
+
+•	Make sure to connect the wires properly (Red to positive and black to ground).
 
 \pagebreak 
 
