@@ -294,7 +294,7 @@ Table of Contents
 
 2.5.2	[Time Commitment](#Time Commitment)
 
-2.5.3	[Mechanical Assembly](#Mechanical Assembly)   
+2.5.3	[FarmBot Raspberry Pi 3 OS](#FarmBot Raspberry Pi 3 OS)   
 
 2.5.4	[PCB and Soldering](#PCB and Soldering)   
 
@@ -532,28 +532,58 @@ components into the case appropriately.
 |Uploading FarmBot firmware (Raspberry pi 3) | 30 mins			   |
 |Uploading FarmBot firmware (Arduino) 		 | 25 mins 			   |
 
-**2.5.4 Mechanical Assembly**
+**2.5.4 FarmBot Raspberry Pi 3 OS**
 
+To upload FarmBot OS on Raspberry Pi 3 according to [@00000019] 
 
-• The outer case was made by laser cutter and have a transparent shielding to
-have a clear view of the components placed inside.
+The Raspberry Pi being used has the software in it to do the various functions:
+•	It should have a communication channel to have a sync with the logs and sequences
+	of data using the Ethernet or Wi-Fi. 
 
-• The Arduino is placed underneath the Ramp Shield with approximately the gap of
-half an inch.
+•	Another communication channel for the interconnection of Arduino and sensor data 
+	of G commands sent by the user.
 
-• Adjacent to that the stepper motor is being placed with its one end outwards
-to have a connection with the belt
+This could be done using the FarmBot OS installed in it which would help to sync 
+the data received to the OS.
 
-• Setup the Raspberry Pi with the farmbot firmware on it so that it generates a
-gateway for the connection in between web application and the mobile device.
+The most important component that is Wi-Fi configurator which allows the Raspberry Pi 
+to create its own network even in the absence of internet. 
+This initiates the connection to the web application with any of 
+your device such as laptop, phone or tablet.
 
-• Get the firmware for the Arduino as well.
+Step 1: Download FarmBot OS
 
-• Assemble the firmware for the Ramp shield.
+•	Download the latest FarmBot OS image.
 
-• Add the stepper motor and generate the connection of Arduino and pi.
+Step 2. Write FarmBot OS to the microSD card
 
-• Enable the stepper motor and ramp shield by giving an adequate power supply.
+•	Install the FarmBot OS on the microSD card using any image writing tool and according 
+to the operating system you have got which could be ether windows, Linux or Mac OS.
+
+Step 3. Prepare the Raspberry Pi
+
+•	Plug your microSD card into the Raspberry Pi
+
+•	Plug your Arduino into the Raspberry Pi with a USB cable
+
+•	Optional: plug in a USB camera to the Raspberry Pi
+
+Step 4. Turn on the Raspberry Pi
+
+•	When you plug in the power supply, the Raspberry Pi will get the power accordingly 
+from the standard micro USB cable from a DC convertor. The power supplied must be rated 
+to 5V and at least 1A, though 2A is recommended.
+
+Step 5. Configure your FarmBot
+
+•	Using a phone, tablet or laptop, search for the Wi Fi network 'farmbot-xxxx'.
+
+•	Connect to that and open a web browser to http://192.168.24.1/
+
+•	Follow the on-screen instructions to configure your FarmBot. 
+Once you save your configuration, FarmBot will connect to your home Wi Fi 
+network and to the FarmBot web application
+
 
 **2.5.5 PCB and Soldering**
 
