@@ -310,6 +310,8 @@ Table of Contents
 
 3.2	[Report 2 (Week 6)](#Report 2 (Week 6))
 
+3.3	[Report 3 (Week 11)](#Report 3 (Week 11))
+
 4.	[Conclusion](#Conclusion)
 
 5.	[Recommendations](#Recommendations)
@@ -755,7 +757,7 @@ Hardware breakdown: We are working on the hardware together.
 
 Sincerely, Adanegbe Amadasun
 
-**3.3 Report 3 (Week 10)**
+**3.3 Report 3 (Week 11)**
 
 
 From: Alisha Singh Chauhan
