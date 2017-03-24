@@ -661,27 +661,8 @@ Putty did not allow us to enter the code.
 When FarmBot OS is loaded and we test the g command, Arduino send the stat of 
 the stepper motor position to my PC and we could see it through the serial monitor on Arduino IDE,
 but it doesn’t accept command, because commands are suppose to be sent by the raspberry pi. 
-We used the table below to understand what the stats of the stepper that was sent by the Arduino.
+We used the table below[@00000018] to understand what the stats of the stepper that was sent by the Arduino.
  
- 
-**Code** |**Number**|**Parameters**		|**Function**
-|----------------------------------------------------------------------------------------------------------------------------------------------|
-|R		 |	 	 	|					|Report messages																					   |
-|R		 |01	 	|					|Current command start																				   |
-|R		 |02	 	|					|Current command finished successfully																   |
-|R		 |03	 	|					|Current command finished with error																   |
-|R		 |04	 	|					|Current command running																			   |
-|R		 |05	 	|					|Report motor/axis state																			   |
-|R		 |06	 	|					|Report calibration state during execution                                                             |
-|R		 |21		|P V				|Report parameter value																				   |
-|R		 |31		|P V				|Report status value																				   |
-|R		 |41		|P V				|Report pin value																					   |	
-|R		 |81		|X1 X2 Y1 Y2 Z1 Z2	|Reporting end stops - parameters: X1 (end stop x axis min) X2 (end stop x axis max) Y1 Y2 Z1 Z2	   |
-|R		 |82		|X Y Z				|Report current position																			   |			
-|R		 |83		|C					|Report software version																			   |				
-|R		 |99		|C					|Debug message																						   |
-
-
 Code type|Number|Parameters|Function
 ---------|------|----------|--------
 R        |      |          |Report messages
@@ -699,14 +680,11 @@ R        |82    |X Y Z     |Report current position
 R        |83    |C         |Report software version
 R        |99    |C         |Debug message
 
-
-
- 
  
 We also create a text file on notepad ++, and wrote the command for the different positions for the stepper motor. 
 The three position am using are: G0 X1 for home position, G0.6 X1 for measuring moisture position, 
 and G1.2 for watering position. We then proceed to load the file but we notice 
-the stepper motor did not pause between position, we went on the website [@00000017](http://reprap.org/wiki/G-code#G4:_Dwell)
+the stepper motor did not pause between position, we went on the website [@00000017]
 which show us how to add pause to my command to make the stepper motor pause at each position.
 
 For FarmBot OS
@@ -717,7 +695,7 @@ when we downloaded the firmware for farmbot as the raspberrian software was remo
 
 Then we tried finding the way out to have the interaction of the firmware with 
 the internet using the IP address of the raspberry pi. We even tried using the website
-[@00000016](https://github.com/FarmBot/farmbot_os/blob/master/docs/FAQ.md ) we couldn’t get it working yet. 
+[@00000016] we couldn’t get it working yet. 
 We did not purchase anything extra till now for the project so our budget is still the same.
 
  We got the router from the school but Mehdi could not help us configure the router because he is on vacation this week.
