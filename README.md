@@ -661,7 +661,7 @@ Putty did not allow us to enter the code.
 When FarmBot OS is loaded and we test the g command, Arduino send the stat of 
 the stepper motor position to my PC and we could see it through the serial monitor on Arduino IDE,
 but it doesn’t accept command, because commands are suppose to be sent by the raspberry pi. 
-We used the table below[@00000018] to understand what the stats of the stepper that was sent by the Arduino.
+We used the table below [@00000018] to understand what the stats of the stepper that was sent by the Arduino.
  
 Code type|Number|Parameters|Function
 ---------|------|----------|--------
@@ -750,3 +750,9 @@ References
 [@00000014]
 
 [@00000015]
+
+[@00000016]
+
+[@00000017]
+
+[@00000018]
