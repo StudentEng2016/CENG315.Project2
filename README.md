@@ -249,33 +249,31 @@ Table of Contents
 
 2.1	[Purpose](#Purpose)
 
-2.2	[Project Overview](#Project Overview)
+2.2	[Hardware Specification](#Hardware Specification)
 
-2.3	[Hardware Specification](#Hardware Specification)
+2.3	[Software Specification](#Software Specification)
 
-2.4	[Software Specification](#Software Specification)
+2.3.1	[Database work breakdown](#Database work breakdown)
 
-2.4.1	[Database work breakdown](#Database work breakdown)
+2.3.2	[Application work breakdown](#Application work breakdownwn)
 
-2.4.2	[Application work breakdown](#Application work breakdownwn)
+2.3.3	[Web and work breakdown](#Web and work breakdown)
 
-2.4.2	[Web and work breakdown](#Web and work breakdown)
+2.4	[Build Instruction](#Build Instruction)
 
-2.5	[Build Instruction](#Build Instruction)
+2.4.1	[Introduction](#Introduction)
 
-2.5.1	[Introduction](#Introduction)
+2.4.2	[Bill of Materials](#Bill of Materials)
 
-2.5.2	[Bill of Materials](#Bill of Materials)
+2.4.3	[Time Commitment](#Time Commitment)
 
-2.5.3	[Time Commitment](#Time Commitment)
+2.4.4	[FarmBot Raspberry Pi 3 OS](#FarmBot Raspberry Pi 3 OS)   
 
-2.5.4	[FarmBot Raspberry Pi 3 OS](#FarmBot Raspberry Pi 3 OS)   
+2.4.5	[FarmBot Arduino OS](#FarmBot Arduino OS)   
 
-2.5.5	[FarmBot Arduino OS](#FarmBot Arduino OS)   
+2.4.6	[Teacup Firmware](#Teacup Firmware)
 
-2.5.6	[Teacup Firmware](#Teacup Firmware)
-
-2.5.7	[Power Up and Testing](#Power Up and Testing)
+2.4.7	[Power Up and Testing](#Power Up and Testing)
 
 3.	[Progress Report](#Progress Report)
 
@@ -443,15 +441,15 @@ We would both work on this.
 
 (Developed by Adanegbe Amadasun and Alisha Singh Chauhan)
 
-**2.5 Build Instruction**
+**2.4 Build Instruction**
 
-**2.5.1 Introduction**
+**2.4.1 Introduction**
 
 The Farmbot is designed in a such a way that it will work and execute the
 commands given by the user through software. The working is clearly explained
 with the design model given below.
 
-**2.5.2 Bill of Materials**
+**2.4.2 Bill of Materials**
 
 -   Raspberry Pi 3 Complete Starter Kit - 32 GB Edition - \$74.35 [@12345678]
 ![](Raspberry_pi3.jpg)
@@ -491,7 +489,7 @@ Image source: [@00000014]
 
 -   Total = \$284.70 + HST
 
-**2.5.3 Time Commitment**
+**2.4.3 Time Commitment**
 
 The design model needs at least 5-6 hours to put everything all together. It
 includes the laser cutting of the outer cage and then soldiering all the
@@ -507,7 +505,7 @@ components into the case appropriately.
 |Uploading FarmBot firmware (Raspberry pi 3) | 30 mins			   |
 |Uploading FarmBot firmware (Arduino) 		 | 25 mins 			   |
 
-**2.5.4 FarmBot Raspberry Pi 3 OS**
+**2.4.4 FarmBot Raspberry Pi 3 OS**
 
 To upload FarmBot OS on Raspberry Pi 3 according to [@00000019] 
 
@@ -559,7 +557,7 @@ Step 5. Configure your FarmBot
 Once you save your configuration, FarmBot will connect to your home Wi Fi 
 network and to the FarmBot web application
 
-**2.5.5 FarmBot Arduino OS**
+**2.4.5 FarmBot Arduino OS**
 
 To upload FarmBot OS on Arduino Mega 2560 according to [@00000020] 
 There are two methods 
@@ -605,7 +603,7 @@ Using Arduino IDE
 •	After you are done with that, click on the upload button. 
 	This will then upload the FarmBot Arduino OS to your Arduino Mega 2560.
 
-**2.5.6 Teacup Firmware**
+**2.4.6 Teacup Firmware**
 
 Teacup Firmware
 
@@ -629,7 +627,7 @@ To upload Teacup firmware on Arduino Mega 2560 according to [@00000021]
 
 •	To upload the firmware into your Arduino, choose Menu -> Build -> Upload
 
-**2.5.7 Power Up and Testing**
+**2.4.7 Power Up and Testing**
 
 To test Teacup firmware, you would have to use pronterface.
 Pronterface
@@ -799,9 +797,6 @@ We did not purchase anything extra till now for the project so our budget is sti
  
 Sincerely,
 Alisha Singh Chauhan
-
-
-
 
 
 
