@@ -57,32 +57,6 @@ and is available on GitHub. The hardware is designed around reproduce-ability an
 it can be created using common tools and processes meaning it is not reliant on a single supplier.
 
 
-
- Need Reviewing 
- [
-FarmBot is going to address some the problems the agricultural industry faces, such as loss of money, inefficiency of 
-some equipment and exploitation of resources. FarmBot is going to be more economical and ecofriendly unlike other agricultural
- equipment being used. It incorporates precision farming, which happens to be a concept based on observing, measuring and responding 
- to inter- and intra-field variability in crops. The device is going to be constructed in the FarmBot company. 
- It is going to be made of an Arduino Mega 2560, Raspberry Pi 3, disassembled hardware packages and other software sources. 
- The FarmBot Genesis runs on custom built tracks and other supporting infrastructure which needs to be self assembled. 
- The robot itself relies on a GUI platform which users can access through the FarmBot’s web app. 
- The physical robotic system is set in alignment with the crops that are plotted out in the virtual version on the web app. 
- This is how FarmBot can be efficient and reliably distribute water, fertilizer and other elements to keep the plants healthy 
- and striving with minimun wastage. The device is going to be cheaper than conventional tools and cost-effective.
- 
-We have searched for prior art via Humber’s IEEE subscription selecting “My Subscribed Content” (Billingsley, Oetomo, & Reid, 2009) and have found and read (Bergerman et al., 2015) which provides insight into similar efforts.
-In the Computer Engineering Technology program, we have learned about the following topics from the respective relevant courses:
--	Java Docs from CENG 212 Programming Techniques In Java,
--	Construction of circuits from CENG 215 Digital And Interfacing Systems,
--	Rapid application development and Gantt charts from CENG 216 Intro to Software Engineering,
--	Micro computing from CENG 252 Embedded Systems,
--	SQL from CENG 254 Database With Java,
--	Web access of databases from CENG 256 Internet Scripting; and,
--	Wireless protocols such as 802.11 from TECH152 Telecom Networks.
-This knowledge and skill set will enable me to build the subsystems and integrate them together as my capstone project.
-]
-
 Executive Summary
 -----------------
 
@@ -250,7 +224,6 @@ create a collaborative IoT capstone project demonstrating my ability to learn
 how to support projects. We request the approval of this project.
 
 
-
 \pagebreak 
 
 Table of Contents
@@ -310,7 +283,7 @@ Table of Contents
 
 3.2	[Report 2 (Week 6)](#Report 2 (Week 6))
 
-3.3	[Report 3 (Week 11)](#Report 3 (Week 11))
+3.3	[Report 3 (Week 11)](#Report  (Week 11))
 
 4.	[Conclusion](#Conclusion)
 
