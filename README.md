@@ -840,7 +840,11 @@ The following points shows the intrinsic benefits which we will be getting after
  
 This project is made under the technical considerations of hardware and software of the farmbot genesis and is worthy 
 to install to reduce the various hazards faced under the farming industry.
- 
+
+5. Recommendations
+==================
+
+
 
 References
 ==========
