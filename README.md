@@ -275,6 +275,8 @@ Table of Contents
 
 2.4.7	[Power Up and Testing](#Power Up and Testing)
 
+2.4.8	[Controlling Farmbot](#Controlling Farmbot)
+
 3.	[Progress Report](#Progress Report)
 
 3.1	[Report 1 (Week 5)](#Report 1 (Week 5))
@@ -656,6 +658,18 @@ Powering up your Arduino Mega 2560 and Stepper Motor
 
 •	Make sure to connect the wires properly (Red to positive and black to ground).
 
+**2.4.8 Controlling Farmbot**
+
+An app was developed for this project to control the FarmBot, the app is called Gardernitor.
+The app was developed with android sudio, and it supports Android 4.4 KitKat and above. Upon launching
+the app, it displays a screen that ask the user to sign into their account, or sign up for a new account
+if they do not already have one. This feature is for security reason to prevent intruders from gainning 
+access to someone else's FarmBot. The next screen would ask the user to pick the seeds they want their 
+FarmBot to plant. After picking a seed, the user would pick 
+
+
+
+
 \pagebreak 
 
 
@@ -730,7 +744,6 @@ Sincerely, Adanegbe Amadasun
 
 **3.3 Report 3 (Week 11)**
 
-
 From: Alisha Singh Chauhan
 Cc: Adanegbe Amadasun
 
@@ -773,7 +786,6 @@ R        |82    |X Y Z     |Report current position
 R        |83    |C         |Report software version
 R        |99    |C         |Debug message
 
- 
 We also create a text file on notepad ++, and wrote the command for the different positions for the stepper motor. 
 The three position am using are: G0 X1 for home position, G0.6 X1 for measuring moisture position, 
 and G1.2 for watering position. We then proceed to load the file but we notice 
@@ -791,7 +803,7 @@ the internet using the IP address of the raspberry pi. We even tried using the w
 [@00000016] we couldn’t get it working yet. 
 We did not purchase anything extra till now for the project so our budget is still the same.
 
- We got the router from the school but Mehdi could not help us configure the router because he is on vacation this week.
+We got the router from the school but Mehdi could not help us configure the router because he is on vacation this week.
  
  
  
@@ -801,6 +813,34 @@ Alisha Singh Chauhan
 
 
 \pagebreak 
+
+4. Conclusion
+==============
+ 
+The making of this project will eliminate so many farming problems which have been faced by our technologists in the previous years.
+The kit is an autonomous machine which could be installed anywhere in the garden as it’s not that huge. 
+It will reduce the human labor for monitoring, and scheduling the farming process.
+
+The following points shows the intrinsic benefits which we will be getting after the building up of this project:
+ 
+-	Free, open-source and accessible with proper documentation
+
+-	Capabilities to optimize the operations reducing human efforts for watering, seeding etc. by moving the axes.
+
+-	Fully- automated with no less time wastage
+
+-	Fragmentation of food production
+
+-	Broadens the horizons for designing the farmbots
+
+-	Scalable from a backyard system to an industrial operation
+
+-	Ability to compile and can be applicable for efficient layouts.
+
+ 
+This project is made under the technical considerations of hardware and software of the farmbot genesis and is worthy 
+to install to reduce the various hazards faced under the farming industry.
+ 
 
 References
 ==========
