@@ -430,8 +430,8 @@ The hardware component for FarmBot that We have are:
 	SMT components on this board are large 2 pad parts you can do pin by pin 
 	soldering pretty easy with normal soldering equipment.
 	
-	Purpose - 
-
+	Purpose -  The ramp shield acts as a bridge between the Arduino, the stepper motor,
+	and the power supply. 
 
 **2.3 Software Specification**
 ![](Software_Overview.png)
@@ -872,8 +872,17 @@ the internet using the IP address of the raspberry pi. We even tried using the w
 We did not purchase anything extra till now for the project so our budget is still the same.
 
 We got the router from the school but Mehdi could not help us configure the router because he is on vacation this week.
- 
- 
+
+To Configure a Router
+
+We had to configure a router for our Raspberry pi 3. The following instructions are how we configured 
+the router.
+
+-	First, the you connect the router to the main network by having the connection to the Ethernet cable.
+-	Now the computer is connected to the router and it acts as an intermediate between the network and the machine.
+-	Then go on the web browser and type in the IP address of the router.
+-	If the IP address of the router is not known, we can figure it out using the manual schema.
+
  
 Sincerely,
 Alisha Singh Chauhan
