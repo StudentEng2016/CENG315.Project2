@@ -277,6 +277,12 @@ Table of Contents
 
 2.4.8	[Controlling Farmbot](#Controlling Farmbot)
 
+2.5	[Problems Encountered](#Problems Encountered)
+
+2.5.1 [Finding Parts](#Finding Parts)
+
+2.5.2 [Time Management](#Time Management)
+
 3.	[Progress Report](#Progress Report)
 
 3.1	[Report 1 (Week 5)](#Report 1 (Week 5))
@@ -376,15 +382,55 @@ FarmBot will be able to perform the following task:
 
 The hardware component for FarmBot that We have are:
 
--   Raspberry pi 3 – It is used to receive data from FarmBot and send it to the
- Arduino
+-   Raspberry pi 3 – : It is the third generation Raspberry Pi. It replaced the 
+	Raspberry Pi 2 Model B in February 2016.it is which are more useful for 
+	embedded projects, and projects which require very low power. Compared to the 
+	Raspberry Pi 2 it has:
+	
+	A 1.2GHz 64-bit quad-core ARMv8 CPU
+	802.11n Wireless LAN
+	Bluetooth 4.1
+	Bluetooth Low Energy (BLE)
 
--   Arduino mega 2560 – It is used to control the bi-polar stepper motor
+	Purpose - The Raspberry pi 3 would create its own Wi-Fi whenever a user can not
+	connect to the internet.This will allow you to access the app credentials from 
+	your laptop, phone, or tablet, which means you never need to hook up a keyboard 
+	or monitor to the Raspberry Pi. Also, It will send the commands entered from 
+	the app to the Arduino
+	
+-   Arduino mega 2560 - The Arduino Mega is a microcontroller board based on the
+	ATmega1280. It has 54 digital input/output pins (of which 14 can be used 
+	as PWM outputs), 16 analog inputs, 4 UARTs (hardware serial ports), 
+	a 16 MHz crystal oscillator, a USB connection, a power jack, an ICSP header, 
+	and a reset button. It contains everything needed to support the microcontroller;
+	simply connect it to a computer with a USB cable or power it with a AC-to-DC 
+	adapter or battery to get started
 
--   Sensor Hat (light and temperature) – It is used to receive data about light
- and temperature from surrounding.
+	Purpose – The Arduino Mega 2560 is going to be used receive commands from the Raspberry
+	pi 3 and send it to the stepper motor to perform a certain task.
 
--   Bi-polar Stepper motor – It controls the movement of the FarmBot
+-   Sensor Hat (light and temperature) - The Sense HAT is an add-on board for 
+	Raspberry Pi, made especially for the Astro Pi mission. It launched to the 
+	International Space Station in December 2015 – and is now available to buy.
+
+	Purpose – We are going to use it is to receive data about light
+	and temperature from surrounding.
+
+-   Bi-polar Stepper motor - It is a brushless DC electric motor that divides a 
+	full rotation into a number of equal steps. The motor's position can then be 
+	commanded to move and hold at one of these steps without any feedback sensor 
+	(an open-loop controller), as long as the motor is carefully sized to the 
+	application in respect to torque and speed
+
+	Purpose - The Stepper motor is going to be used to move  
+	any moving parts of It controls the movement of the farmbot.
+	
+-	1.4 Ramp shield - Soldering RAMPS 1.4 includes both surface mount and through
+	hole soldering. The surface mount can be done a few ways. Since all the 
+	SMT components on this board are large 2 pad parts you can do pin by pin 
+	soldering pretty easy with normal soldering equipment.
+	
+	Purpose - 
 
 
 **2.3 Software Specification**
@@ -413,7 +459,7 @@ company, it is going to be made of an Arduino Mega 2650, Raspberry Pi 3, Sensor
 hat (which can read temperature, light, and soil condition), and Bi-polar
 stepper motor.
 
-We plan on using the an arduino mege2560 to control the bi-polar stepper motor
+We plan on using the an arduino mega 2560 to control the bi-polar stepper motor
 to make it move on its X-axis.
 
 (Developed by Alisha Singh Chauhan)
@@ -512,10 +558,10 @@ components into the case appropriately.
 To upload FarmBot OS on Raspberry Pi 3 according to [@00000019] 
 
 The Raspberry Pi being used has the software in it to do the various functions:
-•	It should have a communication channel to have a sync with the logs and sequences
+-	It should have a communication channel to have a sync with the logs and sequences
 	of data using the Ethernet or Wi-Fi. 
 
-•	Another communication channel for the interconnection of Arduino and sensor data 
+-	Another communication channel for the interconnection of Arduino and sensor data 
 	of G commands sent by the user.
 
 This could be done using the FarmBot OS installed in it which would help to sync 
@@ -528,34 +574,34 @@ your device such as laptop, phone or tablet.
 
 Step 1: Download FarmBot OS
 
-•	Download the latest FarmBot OS image.
+-	Download the latest FarmBot OS image.
 
 Step 2. Write FarmBot OS to the microSD card
 
-•	Install the FarmBot OS on the microSD card using any image writing tool and according 
+-	Install the FarmBot OS on the microSD card using any image writing tool and according 
 to the operating system you have got which could be ether windows, Linux or Mac OS.
 
 Step 3. Prepare the Raspberry Pi
 
-•	Plug your microSD card into the Raspberry Pi
+-	Plug your microSD card into the Raspberry Pi
 
-•	Plug your Arduino into the Raspberry Pi with a USB cable
+-	Plug your Arduino into the Raspberry Pi with a USB cable
 
-•	Optional: plug in a USB camera to the Raspberry Pi
+-	Optional: plug in a USB camera to the Raspberry Pi
 
 Step 4. Turn on the Raspberry Pi
 
-•	When you plug in the power supply, the Raspberry Pi will get the power accordingly 
+-	When you plug in the power supply, the Raspberry Pi will get the power accordingly 
 from the standard micro USB cable from a DC convertor. The power supplied must be rated 
 to 5V and at least 1A, though 2A is recommended.
 
 Step 5. Configure your FarmBot
 
-•	Using a phone, tablet or laptop, search for the Wi Fi network 'farmbot-xxxx'.
+-	Using a phone, tablet or laptop, search for the Wi Fi network 'farmbot-xxxx'.
 
-•	Connect to that and open a web browser to http://192.168.24.1/
+-	Connect to that and open a web browser to http://192.168.24.1/
 
-•	Follow the on-screen instructions to configure your FarmBot. 
+-	Follow the on-screen instructions to configure your FarmBot. 
 Once you save your configuration, FarmBot will connect to your home Wi Fi 
 network and to the FarmBot web application
 
@@ -568,41 +614,41 @@ Using Web App
 Note: You can only use this method if you already have FarmBot OS 
 installed on your Raspberry Pi 3.
 
-•	Connect your your Arduino to Raspberry using your USB cable
+-	Connect your your Arduino to Raspberry using your USB cable
 
-•	Login to the FarmBot Web Application, if you already have already an account
+-	Login to the FarmBot Web Application, if you already have already an account
 	but if you don't create one. Then go to the Device page.
 
-•	In the Device widget, click the Update button next to the Firmware version. 
+-	In the Device widget, click the Update button next to the Firmware version. 
 	This will tell the Raspberry Pi to download the latest FarmBot Arduino firmware 
 	and install it onto the Arduino. 
 	Note: This may take a few minutes. Do not press the Update button more than once.
 
 
-•	Once the installation process is complete, the software widget on the web application
+-	Once the installation process is complete, the software widget on the web application
 	should show that the latest firmware is installed. There is no need to 'start the firmware' 
 	because as long as the Arduino has power and a connection to the Raspberry Pi, 
 	the firmware will be running.
 
 Using Arduino IDE
 
-•	Go to the website https://www.arduino.cc/en/main/software to download Arduino IDE.
+-	Go to the website https://www.arduino.cc/en/main/software to download Arduino IDE.
 
-•	After downloading Arduino IDE install it on your computer, and Run it. 
+-	After downloading Arduino IDE install it on your computer, and Run it. 
 
-•	Download and unzip the latest from FarmBot Arduino Firmware release.
+-	Download and unzip the latest from FarmBot Arduino Firmware release.
 
-•	In the firmware folder, you just unzipped, go to the src sub-folder 
+-	In the firmware folder, you just unzipped, go to the src sub-folder 
 	and open up src with the Arduino IDE. Note: this file is blank, 	
 	but there are many other file tabs that should be automatically opened as well.
 	
-•	Once that is complete, connect Arduino Mega 2560 to your computer using your USB cable 
+-	Once that is complete, connect Arduino Mega 2560 to your computer using your USB cable 
 	(Note: Arduino Mega 2560 uses a printer USB cable).
 	
-•	Click on the Tools tab, it shows a dropdown menu which you would 
+-	Click on the Tools tab, it shows a dropdown menu which you would 
 	then select Board and click on Arduino Mega 2560.
 	
-•	After you are done with that, click on the upload button. 
+-	After you are done with that, click on the upload button. 
 	This will then upload the FarmBot Arduino OS to your Arduino Mega 2560.
 
 **2.4.6 Teacup Firmware**
@@ -612,22 +658,22 @@ Teacup Firmware
 To upload Teacup firmware on Arduino Mega 2560 according to [@00000021] 
 (Note: you will need Python 2.7.x or later, but not Python 3.x.)
 
-•	Download Teacup firmware from this website Teacup Firmware master branch package and unpack it. 
+-	Download Teacup firmware from this website Teacup Firmware master branch package and unpack it. 
 
-•	After downloading it, open just the unpackaged directory and double-click configtool.py to start it.
+-	After downloading it, open just the unpackaged directory and double-click configtool.py to start it.
 
-•	Choose Menu -> File -> Load printer and select the one closest to the printer you want to operate.
+-	Choose Menu -> File -> Load printer and select the one closest to the printer you want to operate.
 
-•	Choose Menu -> File -> Load board and again select the one closest to (or matching) your actual hardware.
+-	Choose Menu -> File -> Load board and again select the one closest to (or matching) your actual hardware.
 
-•	Choose Menu -> File -> Save config.h.
+-	Choose Menu -> File -> Save config.h.
 
-•	Choose Menu -> Edit -> Settings like the Arduino directory, the port directory,
+-	Choose Menu -> Edit -> Settings like the Arduino directory, the port directory,
 	baud rate etc. After editing the settings, click save.  
  
-•	Now you need to build it so choose Menu -> Build -> Build.
+-	Now you need to build it so choose Menu -> Build -> Build.
 
-•	To upload the firmware into your Arduino, choose Menu -> Build -> Upload
+-	To upload the firmware into your Arduino, choose Menu -> Build -> Upload
 
 **2.4.7 Power Up and Testing**
 
@@ -636,39 +682,61 @@ Pronterface
 
 Pronterface is used to send g command or code to Arduino firmware. 
 
-•	Download the latest version of pronterface for your PC, 
+-	Download the latest version of pronterface for your PC, 
 	form this website http://kliment.kapsi.fi/printrun/
 	
-•	Enter your baud rate and port 
+-	Enter your baud rate and port 
 
-•	Click connect and the grayed out X axis and Y axis should turn coloured
+-	Click connect and the grayed out X axis and Y axis should turn coloured
 
-•	You can either click on the X axis or Y axis to move the stepper motor,
+-	You can either click on the X axis or Y axis to move the stepper motor,
 	or enter the g command and click send to move the stepper motor
 
 Powering up Arduino Mega 2560
 
 Powering up your Arduino Mega 2560 and Stepper Motor
 
-•	Arduino Mega gets enough power to wok when it is connected to your computer through a USB cable. 
+-	Arduino Mega gets enough power to wok when it is connected to your computer through a USB cable. 
 
-•	Tune the potentiometer on the stepper motor to limit the current to 0.6 amps
+-	Tune the potentiometer on the stepper motor to limit the current to 0.6 amps
 
-•	Set the power supply to be 10V 
+-	Set the power supply to be 10V 
 
-•	Make sure to connect the wires properly (Red to positive and black to ground).
+-	Make sure to connect the wires properly (Red to positive and black to ground).
 
 **2.4.8 Controlling Farmbot**
 
 An app was developed for this project to control the FarmBot, the app is called Gardernitor.
 The app was developed with android sudio, and it supports Android 4.4 KitKat and above. Upon launching
 the app, it displays a screen that ask the user to sign into their account, or sign up for a new account
-if they do not already have one. This feature is for security reason to prevent intruders from gainning 
+if they do not already have one. 
+
+This feature is for security reason to prevent intruders from gainning 
 access to someone else's FarmBot. The next screen would ask the user to pick the seeds they want their 
-FarmBot to plant. After picking a seed, the user would pick 
+FarmBot to plant. After picking a seed, the user would pick a care option and the duration for which they 
+want FarmBot to care for the plant.
 
+2.5 Problems Encountered
+========================
+Throughout the duration of our capusle project, we encountered different problems that required 
+us to use not only our knowledge from Computer Engineering, but also knowledge we have gained 
+from the outside world. The following are some of the problems we had: 
 
+**2.5.1 Finding Parts**
 
+-	We had a hard time finding parts appropriate for our project, because we were going to 
+	build a prototype. This made it difficult to determine where to start in assembly but 
+	this is providing an opportunity to rethink our original design plans from following a 
+	scaled-down FarmBot design to attempting a design that resembles a 3D printer and adjusting it 
+	appropriately for this project. We are thinking about this design change in order to have more 
+	than one axis for the robotic arm and to allow more useful functionality out of the FarmBot design. 
+	We might choose to return to the original design plan if this is not feasible. 
+
+**2.5.2 Time Management**
+
+-	Time management caused a lot of problems for us because we had poor time management skills. 
+	Our project requires a lot of time, so we tried to balance our time among all our courses 
+	which means coming to school on weekends to get some work done. 
 
 \pagebreak 
 
@@ -711,8 +779,8 @@ Dear Sir,
 This is our email regarding progress report and the milestone we have covered so
 far on our project. We now have a better understanding on how to go about our
 project. We worked with Vlad last week Friday to accomplish various task for our
-project such as: • Tuning our stepper driver to allow 0.6 amps of current •
-Lasercut a hole through our case for the pulling system • We also learnt how to
+project such as: - Tuning our stepper driver to allow 0.6 amps of current -
+Lasercut a hole through our case for the pulling system - We also learnt how to
 crimp wires, we crimp our stepper motor wire to make it easier to connect it to
 ramp shield. We have built a case for our FarmBot and are still working on
 creating our pulley system. Also, we had success in uploading teacup firmware
@@ -811,7 +879,6 @@ Sincerely,
 Alisha Singh Chauhan
 
 
-
 \pagebreak 
 
 4. Conclusion
@@ -844,6 +911,10 @@ to install to reduce the various hazards faced under the farming industry.
 5. Recommendations
 ==================
 
+We recommend farmbot because of numerous reasons such as FarmBot is the first piece of technology that 
+is an end-to-end soil-based food production system that is also 100% open source, focused on precision, 
+controlled from the web, and accessible and appropriate for small-scale operations.It tends to plant variety 
+of plants and indeed gives the opportunity to the users to customize it by themselves.
 
 
 References
