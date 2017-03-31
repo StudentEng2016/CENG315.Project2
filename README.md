@@ -434,9 +434,39 @@ The hardware component for FarmBot that We have are:
 	and the power supply. 
 
 **2.3 Software Specification**
-![](Software_Overview.png)
+FarmBot is going to operate in an order similar to that posted on diagram posted on farmbot 
+arduino github page [@00000018].
 
-Image source: [@00000007]
+	 +--------------------------+
+     |farmbot_ app 				|
+     +-----------+--------------+
+                 v
+	 +--------------------------+
+     |farmbot_raspberry_pi3		|
+     +-----------+--------------+
+                 v
+	 +--------------------------+
+     |farmbot_arduino_controller|
+     +-----------+--------------+
+                 v
+     +--------------------------+
+     |Command                   |
+     +-----------+--------------+
+                 v
+     +--------------------------+
+     |GCodeProcessor            |
+     +-----------+--------------+
+                 v
+     +--------------------------+
+     |***Handler                |
+     +-------+-----------+------+
+             |           |
+             |           +---+
+             v               v
+     +--------------+   +-----------+
+     |StepperControl|   | PinControl|
+
+Image source: [@00000018]
 
 **2.3.1 Database work breakdown**
 
@@ -853,6 +883,42 @@ R        |81    |X1 X2 Y1 Y2 Z1 Z2|Reporting end stops - parameters: X1 (end sto
 R        |82    |X Y Z     |Report current position
 R        |83    |C         |Report software version
 R        |99    |C         |Debug message
+
+
+
+Code type|Number|Parameters|Function
+---------|------|----------|--------
+G        |      |          |G-Code, the codes working the same as a 3D printer
+G        |00    |X Y Z S   |Move to location at given speed for axis (don't have to be a straight line), in absolute coordinates
+G        |01    |X Y Z S   |Move to location on a straight line
+G        |28    |          |Move home all axis
+F        |      |          |Farm commands, commands specially added for the farmbot
+F        |01    |T         |Dose amount of water using time in millisecond
+F        |02    |N         |Dose amount of water using flow meter that measures pulses
+F        |11    |          |Home X axis
+F        |12    |          |Home Y axis
+F        |13    |          |Home Z axis
+F        |14    |          |Calibrate X axis
+F        |15    |          |Calibrate Y axis
+F        |16    |          |Calibrate Z axis
+F        |20    |          |List all parameters and value
+F        |21    |P         |Read parameter
+F        |22    |P V       |Write parameter
+F        |23    |P V       |Update parameter (during calibration)
+F        |31    |P         |Read status
+F        |32    |P V       |Write status
+F        |41    |P V M     |Set a value V on an arduino pin in mode M (digital=0/analog=1)
+F        |42    |P M       |Read a value from an arduino pin P in mode M (digital=0/analog=1)
+F        |43    |P M       |Set the I/O mode M (input=0/output=1) of a pin P in arduino 
+F        |44    |P V W T M |Set the value V on an arduino pin P, wait for time T in milliseconds, set value W on the arduino pin P in mode M (digital=0/analog=1)
+F        |51    |E P V     |Set a value on the tool mount with I2C (not implemented)
+F        |52    |E P       |Read value from the tool mount with I2C (not implemented)
+F        |61    |P V       |Set the servo on the pin P (only pin 4 and 5) to the requested angle V
+F        |81    |          |Report end stop
+F        |82    |          |Report current position
+F        |83    |          |Report software version
+E        |      |          |Emergency stop
+
 
 We also create a text file on notepad ++, and wrote the command for the different positions for the stepper motor. 
 The three position am using are: G0 X1 for home position, G0.6 X1 for measuring moisture position, 
