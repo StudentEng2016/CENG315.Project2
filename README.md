@@ -279,9 +279,9 @@ Table of Contents
 
 2.5	[Problems Encountered](#Problems Encountered)
 
-2.5.1 [Finding Parts](#Finding Parts)
+2.5.1	[Finding Parts](#Finding Parts)
 
-2.5.2 [Time Management](#Time Management)
+2.5.2	[Time Management](#Time Management)
 
 3.	[Progress Report](#Progress Report)
 
