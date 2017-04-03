@@ -438,7 +438,7 @@ FarmBot is going to operate in an order similar to that posted on diagram posted
 arduino github page [@00000018].
 
 	 +--------------------------+
-     |farmbot_ app 				|
+     |farmbot_ app				|
      +-----------+--------------+
                  v
 	 +--------------------------+
