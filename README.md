@@ -229,19 +229,19 @@ how to support projects. We request the approval of this project.
 Table of Contents
 =================
 
-[Declaration of Joint Authorship](https://github.com/StudentEng2016/StudentEng2016.github.io#Declaration%20of%20Joint%20Authorship)
+[Declaration of Joint Authorship](#Declaration of Joint Authorship)
 
-[Approved Proposal](https://github.com/StudentEng2016/StudentEng2016.github.io#Approved%20Proposal)
+[Approved Proposal](#Approved Proposal)
 
-[Executive Summary](https://github.com/StudentEng2016/StudentEng2016.github.io#Executive%20Summary)
+[Executive Summary](#Executive Summary)
 
-[Background](https://github.com/StudentEng2016/StudentEng2016.github.io#Background)
+[Background](#Background)
 
-[Methodology](https://github.com/StudentEng2016/StudentEng2016.github.io#Methodology)
+[Methodology](#Methodology)
 
-[Concluding Remarks](https://github.com/StudentEng2016/StudentEng2016.github.io#Concluding%20Remarks)
+[Concluding Remarks](#Concluding Remarks)
 
-[Abstract](https://github.com/StudentEng2016/StudentEng2016.github.io#Abstract)
+[Abstract](#Abstract)
 
 1.	[Introduction](#Introduction)
 
@@ -285,11 +285,11 @@ Table of Contents
 
 3.	[Progress Report](#Progress Report)
 
-3.1	[Report 1 (Week 5)](#Report 1 (Week 5))
+3.1	[Report 1	(Week 5)](#Report 1	(Week 5))
 
-3.2	[Report 2 (Week 6)](#Report 2 (Week 6))
+3.2	[Report 2	(Week 6)](#Report 2	(Week 6))
 
-3.3	[Report 3 (Week 11)](#Report  (Week 11))
+3.3	[Report 3	(Week 11)](#Report	(Week 11))
 
 4.	[Conclusion](#Conclusion)
 
@@ -774,7 +774,7 @@ from the outside world. The following are some of the problems we had:
 3. Progress Report
 ==================
 
-**3.1 Report 1 (Week 5)**
+**3.1 Report 1	(Week 5)**
 
 From: Adanegbe Amadasun 
 Cc: Alisha Singh Chauhan
@@ -799,7 +799,7 @@ project to know which of the we can use.
 
 Sincerely, Adanegbe Amadasun
 
-**3.2 Report 2 (Week 6)**
+**3.2 Report 2	(Week 6)**
 
 From: Adanegbe Amadasun 
 Cc: Alisha Singh Chauhan 
@@ -840,7 +840,7 @@ Hardware breakdown: We are working on the hardware together.
 
 Sincerely, Adanegbe Amadasun
 
-**3.3 Report 3 (Week 11)**
+**3.3 Report 3	(Week 11)**
 
 From: Alisha Singh Chauhan
 Cc: Adanegbe Amadasun
@@ -983,6 +983,8 @@ The following points shows the intrinsic benefits which we will be getting after
 This project is made under the technical considerations of hardware and software of the farmbot genesis and is worthy 
 to install to reduce the various hazards faced under the farming industry.
 
+\pagebreak 
+
 5. Recommendations
 ==================
 
@@ -990,6 +992,8 @@ We recommend farmbot because of numerous reasons such as FarmBot is the first pi
 is an end-to-end soil-based food production system that is also 100% open source, focused on precision, 
 controlled from the web, and accessible and appropriate for small-scale operations.It tends to plant variety 
 of plants and indeed gives the opportunity to the users to customize it by themselves.
+
+\pagebreak 
 
 
 References
