@@ -285,11 +285,11 @@ Table of Contents
 
 3.	[Progress Report](#Progress Report)
 
-3.1	[Report 1	(Week 5)](#Report 1	(Week 5))
+3.1	[Report 1(Week 5)](#Report 1(Week 5))
 
-3.2	[Report 2	(Week 6)](#Report 2	(Week 6))
+3.2	[Report 2(Week 6)](#Report 2(Week 6))
 
-3.3	[Report 3	(Week 11)](#Report	(Week 11))
+3.3	[Report 3(Week 11)](#Report 3(Week 11))
 
 4.	[Conclusion](#Conclusion)
 
@@ -774,7 +774,7 @@ from the outside world. The following are some of the problems we had:
 3. Progress Report
 ==================
 
-**3.1 Report 1	(Week 5)**
+**3.1 Report 1(Week 5)**
 
 From: Adanegbe Amadasun 
 Cc: Alisha Singh Chauhan
@@ -799,7 +799,7 @@ project to know which of the we can use.
 
 Sincerely, Adanegbe Amadasun
 
-**3.2 Report 2	(Week 6)**
+**3.2 Report 2(Week 6)**
 
 From: Adanegbe Amadasun 
 Cc: Alisha Singh Chauhan 
@@ -840,7 +840,7 @@ Hardware breakdown: We are working on the hardware together.
 
 Sincerely, Adanegbe Amadasun
 
-**3.3 Report 3	(Week 11)**
+**3.3 Report 3(Week 11)**
 
 From: Alisha Singh Chauhan
 Cc: Adanegbe Amadasun
