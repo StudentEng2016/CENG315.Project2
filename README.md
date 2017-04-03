@@ -16,7 +16,7 @@ Image source: [@00000001]
 
 **Discipline: Computer Engineering Technology**
 
-**Date Submitted: March 03,2017**
+**Date Submitted: March 31,2017**
 
 \pagebreak 
 
@@ -269,7 +269,7 @@ Table of Contents
 
 2.4.4	[FarmBot Raspberry Pi 3 OS](#FarmBot Raspberry Pi 3 OS)   
 
-2.4.5	[FarmBot Arduino OS](#FarmBot Arduino OS)   
+2.4.5	[FarmBot Arduino Firmware](#FarmBot Arduino Firmware)   
 
 2.4.6	[Teacup Firmware](#Teacup Firmware)
 
@@ -585,7 +585,7 @@ components into the case appropriately.
 
 **2.4.4 FarmBot Raspberry Pi 3 OS**
 
-To upload FarmBot OS on Raspberry Pi 3 according to [@00000019] 
+To upload FarmBot Firmware on Raspberry Pi 3 according to [@00000019] 
 
 The Raspberry Pi being used has the software in it to do the various functions:
 -	It should have a communication channel to have a sync with the logs and sequences
@@ -594,7 +594,7 @@ The Raspberry Pi being used has the software in it to do the various functions:
 -	Another communication channel for the interconnection of Arduino and sensor data 
 	of G commands sent by the user.
 
-This could be done using the FarmBot OS installed in it which would help to sync 
+This could be done using the FarmBot Firmware installed in it which would help to sync 
 the data received to the OS.
 
 The most important component that is Wi-Fi configurator which allows the Raspberry Pi 
@@ -602,13 +602,13 @@ to create its own network even in the absence of internet.
 This initiates the connection to the web application with any of 
 your device such as laptop, phone or tablet.
 
-Step 1: Download FarmBot OS
+Step 1: Download FarmBot Firmware
 
--	Download the latest FarmBot OS image.
+-	Download the latest FarmBot Firmware image.
 
-Step 2. Write FarmBot OS to the microSD card
+Step 2. Write FarmBot Firmware to the microSD card
 
--	Install the FarmBot OS on the microSD card using any image writing tool and according 
+-	Install the FarmBot Firmware on the microSD card using any image writing tool and according 
 to the operating system you have got which could be ether windows, Linux or Mac OS.
 
 Step 3. Prepare the Raspberry Pi
@@ -635,13 +635,13 @@ Step 5. Configure your FarmBot
 Once you save your configuration, FarmBot will connect to your home Wi Fi 
 network and to the FarmBot web application
 
-**2.4.5 FarmBot Arduino OS**
+**2.4.5 FarmBot Arduino Firmware**
 
-To upload FarmBot OS on Arduino Mega 2560 according to [@00000020] 
+To upload FarmBot Firmware on Arduino Mega 2560 according to [@00000020] 
 There are two methods 
 
 Using Web App
-Note: You can only use this method if you already have FarmBot OS 
+Note: You can only use this method if you already have FarmBot Firmware 
 installed on your Raspberry Pi 3.
 
 -	Connect your your Arduino to Raspberry using your USB cable
@@ -679,7 +679,7 @@ Using Arduino IDE
 	then select Board and click on Arduino Mega 2560.
 	
 -	After you are done with that, click on the upload button. 
-	This will then upload the FarmBot Arduino OS to your Arduino Mega 2560.
+	This will then upload the FarmBot Arduino Firmware to your Arduino Mega 2560.
 
 **2.4.6 Teacup Firmware**
 
@@ -850,7 +850,7 @@ Dear Sir,
 This is our email regarding progress report and the milestone we have covered 
 so far on our project.
 
-For Arduino OS
+For Arduino Firmware
 
 We opened the serial monitor on Arduino IDE to enter g codes to move the stepper motor,
 after entering the code, nothing happened. Then we loaded the teacup firmware into 
@@ -862,7 +862,7 @@ I made on putty as farmbot so next time, all we need to do is load the saved ses
 After saving the session, we proceeded to load it and I still encountered the similar issue. 
 Putty did not allow us to enter the code.
 
-When FarmBot OS is loaded and we test the g command, Arduino send the stat of 
+When FarmBot Firmware is loaded and we test the g command, Arduino send the stat of 
 the stepper motor position to my PC and we could see it through the serial monitor on Arduino IDE,
 but it doesn’t accept command, because commands are suppose to be sent by the raspberry pi. 
 We used the table below [@00000018] to understand what the stats of the stepper that was sent by the Arduino.
@@ -926,7 +926,7 @@ and G1.2 for watering position. We then proceed to load the file but we notice
 the stepper motor did not pause between position, we went on the website [@00000017]
 which show us how to add pause to my command to make the stepper motor pause at each position.
 
-For FarmBot OS
+For FarmBot Firmware
 
 We were still kind of stuck troubleshooting for the FarmBot firmware to work. 
 We were trying to figure out if the Raspberry pi could work with the ssh terminal because 
