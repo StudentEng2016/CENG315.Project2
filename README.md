@@ -285,11 +285,23 @@ Table of Contents
 
 3.	[Progress Report](#Progress Report)
 
-3.1	[Report 1(Week 5)](#Report 1(Week 5))
+3.1	[Fall Semester Progress Report](#Fall Semester Progress Report)
 
-3.2	[Report 2(Week 6)](#Report 2(Week 6))
+3.1.1 [Report 1](#Report 1)
 
-3.3	[Report 3(Week 11)](#Report 3(Week 11))
+3.1.2 [Report 2](#Report 2)
+
+3.1.3 [Report 3](#Report 3)
+
+3.2	[Winter Semester Progress Report](#Winter Semester Progress Report)
+
+3.2.1 [Report 1](#Report 1)
+
+3.2.2 [Report 2](#Report 2)
+
+3.2.3 [Report 3](#Report 3)
+
+3.2.4 [Report 4](#Report 4)
 
 4.	[Conclusion](#Conclusion)
 
@@ -774,7 +786,74 @@ from the outside world. The following are some of the problems we had:
 3. Progress Report
 ==================
 
-**3.1 Report 1(Week 5)**
+3.1	Fall Semester Progress Reprt
+================================ 
+
+** 3.1.1 Report 1 **
+
+Activities versus Schedule: The project happens to be behind but we have received most of the non-3D-printed 
+parts and will have some assembly along with design plans for the November 12th Fall Open House.
+
+Current Progress: My group and I have each bought most of the parts from Creatron (the Arduino Mega 2560, 
+the GT2 timing belt and pulleys, the NEMA stepper motor with drivers, etc). Since we are behind schedule, 
+we have not progressed far in project-wise. We are also behind with the Android application but this should 
+change after Open House.
+
+Problems & Opportunities: The current problems we encountered are find parts appropriate for our project and 
+time management. We have also needed to rethink our design plans as to whether we should laser cut or 3D print 
+parts we have originally thought of buying.
+
+Financial Status: After modifying our original budget to take into account for design and build changes,
+we are on budget for the FarmBot.
+
+** 3.1.2 Report 2 **
+
+Activities versus Schedule: 
+The project remains behind schedule. We will be begin plans on 3D printing.
+We have also decided to change our original design plans for the project to incorporate feedback from 
+the Open House event and from talking to the staff at Creatron.
+
+Current Progress:
+Since we are behind schedule, we have still not progressed far in project-wise. 
+Our current plan is to begin assembly this week and to have any 3D printed parts ready. 
+We are also behind on the Android application.
+
+Problems & Opportunities:
+Our current problem remains to be time management. We are also having trouble
+determining where to start in assembly but this is providing an opportunity to rethink our original 
+design plans from following a scaled-down FarmBot design to attempting a design that resembles a 3D 
+printer and adjusting it appropriately for this project. We are thinking about this design change in 
+order to have more than one axis for the robotic arm and to allow more useful functionality out of
+the FarmBot design. We might choose to return to the original design plan if this is not feasible. 
+
+Financial Status:
+Although we are currently on budget, this will most likely change with the design 
+changes mentioned above since this would require more parts but will create a better working design.
+
+** 3.1.3 Report 3**
+
+Activities versus Schedule: 
+We are still behind our schedule with our project. I am attempting to move the stepper motor with 
+the Arduino connected to the raspberry pi using the pi’s gpio pins and Arduino analog input, 
+then get the stepper motor to respond to the sensor hat. 
+
+Current Progress:
+I have gotten the stepper motor to move using the Arduino connected to my laptop. 
+
+Problems & Opportunities: 
+My problem with the project is mostly with time management because our project requires a lot of time, 
+so I try to balance my time among all my courses which means coming to school on weekends to get some 
+work done. Working on our project provides me with the opportunity to apply past semesters knowledge 
+and learn new things in the process. 
+
+Financial Status:
+Our budget has not really changed because I have not purchase any new parts yet, but am planning on getting
+a power supply for the stepper motor. 
+
+3.2	Winter Semester Progress Report
+===================================
+
+** 3.2.1 Report 1**
 
 From: Adanegbe Amadasun 
 Cc: Alisha Singh Chauhan
@@ -799,7 +878,7 @@ project to know which of the we can use.
 
 Sincerely, Adanegbe Amadasun
 
-**3.2 Report 2(Week 6)**
+**3.2.2 Report 2**
 
 From: Adanegbe Amadasun 
 Cc: Alisha Singh Chauhan 
@@ -840,7 +919,7 @@ Hardware breakdown: We are working on the hardware together.
 
 Sincerely, Adanegbe Amadasun
 
-**3.3 Report 3(Week 11)**
+**3.2.3 Report 3**
 
 From: Alisha Singh Chauhan
 Cc: Adanegbe Amadasun
@@ -953,6 +1032,56 @@ the router.
 Sincerely,
 Alisha Singh Chauhan
 
+**3.2.4 Report 4**
+
+From: Adanegbe Amadasun, 
+Cc: Alisha Singh Chauhan
+
+Dear Sir,
+We are still unsuccessful in configuring our raspberry pi. After the initial email, you sent to 
+Connor Rigby starting the instructions we followed to configure our raspberry pi, we have also being 
+communicating with him via email on other possible solutions. Some of the problems and solutions 
+we encountered are:
+
+Email 1:
+We mailed Rory first asking for help, explaining him the whole scenario that we are trying to ssh 
+into FarmBot and we successfully able to enter to web browser but it does not pick up the DHCP address.
+Rory replied saying FarmBot OS is not designed like a normal OS so we cannot access SSH for configuration. 
+While he was unable to help, he looped in Mr. Connor Rigby (developer of FarmBot OS). He asked us 
+if we configured Wi-Fi correctly.
+ 
+Email 2:
+We have successfully loaded the FarmBot OS onto an SD card for a Raspberry Pi 3, its SSID is properly
+broadcast and we can connect to it. We tried connecting our Raspberry Pi to an HDMI monitor but experienced 
+no post even after waiting 5 minutes and pressing ctrl + C. The problem is we cannot troubleshoot until we get 
+the display working. We tried doing it by attaching the computer to the router which has internet connection, 
+but it did not show up either on the DHCP Client List even though another raspberry pi with a raspbian 
+image did show up.
+
+How we did it: 
+
+We used win32diskimager to write the FarmBot OS into a microSD, then inserted it into the Raspberry Pi and 
+waited 5 mins for it to finished loading. Though there was no display, we entered ctrl c and nothing happened. 
+But when we enter ctrl + c on the school raspberry pi, the cli screen came up.  
+We also tried using the router we have previously configured t. We also used an application called IPScanner 
+to search for our raspberry pi (Loaded with FarmBot OS) IP address, unfortunately no IP came up for our raspberry pi, 
+though the school’s raspberry pi IP address came up when we searched for it. 
+
+Email 3:
+Connor told us to open the microSD which has FarmBot OS on it, on a different operation system like Mac or Linux 
+instead of using Windows and navigate to “573 MB Volume” file and search for a file called “logs.txt”. We followed 
+Connor’s instructions but we were unable to file the partition rather we found two txt file: config.txt and cmdline.txt 
+
+Email 4:
+
+Connor explained that it was a wrong partition as Mac OS no longer support it, questioned us
+if we used hard wire or wi-fi. We told him we used both (wi-fi initially, then we switched to hard wire). 
+
+Email 5: 
+Connor asked what revision was the raspberry pi and then model number.  We wrote our raspberry pi version on
+a text file, along with instructions on how we created partition on a linux computer so we can view the files in the microSD. 
+
+Sincerely,
 
 \pagebreak 
 
@@ -979,7 +1108,6 @@ The following points shows the intrinsic benefits which we will be getting after
 
 -	Ability to compile and can be applicable for efficient layouts.
 
- 
 This project is made under the technical considerations of hardware and software of the farmbot genesis and is worthy 
 to install to reduce the various hazards faced under the farming industry.
 
@@ -992,6 +1120,15 @@ We recommend farmbot because of numerous reasons such as FarmBot is the first pi
 is an end-to-end soil-based food production system that is also 100% open source, focused on precision, 
 controlled from the web, and accessible and appropriate for small-scale operations.It tends to plant variety 
 of plants and indeed gives the opportunity to the users to customize it by themselves.
+
+In our model, we only used one axis which moves forward because it was our first experiment so we wanted to 
+move with simplicity but it is recommended to make other two axes as well Y-axis and Z-axis. Our project is 
+facing issues setting up the wi-fi in the raspberry pi as it uses Farmbot OS. If possible, try and search for 
+various other forms of images if it suits the scenario. As we only used one axes for our prototype, 
+we had used few G-codes only but there is a whole set of conmmands which could be used. Its recommended 
+to make makercase.io website and cut the case with the laser cutter very carefully with proper dimensions. 
+Make sure the images used for the Farmbot OS is appropriate.
+
 
 \pagebreak 
 
